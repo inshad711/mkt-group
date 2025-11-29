@@ -407,7 +407,7 @@ const ProductShowcase = () => {
                             <h3 className="text-xl text-gray-700 text-center font-normal mb-3 tracking-wide">
                                 Always Fresh
                             </h3>
-                            <p className="text-gray-400 text-sm  text-center leading-relaxed max-w-[260px]">
+                            <p className="text-gray-400 text-sm text-center leading-relaxed max-w-[260px]">
                                 Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore.
                             </p>
                         </div>
@@ -434,7 +434,7 @@ const ProductShowcase = () => {
                             <div className="mb-4 text-[#D4AF37] transition-all duration-300 group-hover:-translate-y-1 group-hover:scale-110">
                                 <BadgeCheck strokeWidth={1} size={64} />
                             </div>
-                            <h3 className="text-xl text-gray-700 font-normal mb-3 tracking-wide">
+                            <h3 className="text-xl text-gray-700  text-center font-normal mb-3 tracking-wide">
                                 High Nutrition
                             </h3>
                             <p className="text-gray-400 text-sm text-center leading-relaxed max-w-[260px]">

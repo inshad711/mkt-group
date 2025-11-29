@@ -231,33 +231,64 @@ import Image from 'next/image';
 import { Heart, Minus, Plus, ChevronDown } from 'lucide-react';
 
 // Data extracted from your video/snippet
+// const PRODUCT_DATA = {
+//     category: "SKIN",
+//     title: "Hair Hydrator",
+//     price: 69.00,
+//     description: "This all natural face toner effectively balances and refreshes the skin, leaving it feeling rejuvenated and revitalized. Formulated with natural ingredients, it gently cleanses and tightens pores for a healthier and more radiant complexion. Clinically proven to provide noticeable results, this toner is a must-have for any skincare routine.",
+//     images: [
+//         "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+//         "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+//         "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+//         "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png"
+//     ],
+//     sizes: ["100 ml", "200 ml"],
+//     accordions: [
+//         {
+//             id: "info",
+//             title: "Information",
+//             content: "Balance and refresh your skin with our Face Toner, an alcohol-free formula that hydrates and preps the skin for better absorption of serums and moisturizers. Infused with witch hazel, green tea extract, and rose water, it refines pores, soothes irritation, and enhances skin’s natural glow. Perfect for all skin types, it provides a burst of hydration while removing residual impurities."
+//         },
+//         {
+//             id: "benefits",
+//             title: "Benefits",
+//             content: "Balances pH, Refreshes, Hydrates, Preps Skin for Moisturizer"
+//         },
+//         {
+//             id: "ingredients",
+//             title: "Ingredients",
+//             content: "Water/Aqua/Eau, Hamamelis Virginiana (Witch Hazel) Water, Camellia Sinensis (Green Tea) Leaf Extract, Rosa Damascena Flower Water, Glycerin, Aloe Barbadensis Leaf Juice, Sodium Hyaluronate, Citric Acid, Phenoxyethanol, Sodium Benzoate."
+//         }
+//     ]
+// };
+
 const PRODUCT_DATA = {
-    category: "SKIN",
-    title: "Hair Hydrator",
-    price: 69.00,
-    description: "This all natural face toner effectively balances and refreshes the skin, leaving it feeling rejuvenated and revitalized. Formulated with natural ingredients, it gently cleanses and tightens pores for a healthier and more radiant complexion. Clinically proven to provide noticeable results, this toner is a must-have for any skincare routine.",
+    category: "HOUSEHOLD CLEANING",
+    title: "Harpic Power Plus 10X Toilet Cleaner",
+    price: 3.50, // Example price
+    description: "Harpic Power Plus 10X is a powerful toilet cleaner that kills 99.9% of germs and removes tough stains, leaving your toilet sparkling clean and fresh. Its unique formula is 10 times better than ordinary cleaners for a superior clean.",
     images: [
-        "https://framerusercontent.com/images/PxvRuzUwt40NkSmiLNI1rrsww.jpg",
-        "https://framerusercontent.com/images/V5sK2Rr93Pu0le6vED3i268vB8.jpg",
-        "https://framerusercontent.com/images/mqMc04xOLVx7hSro662BEPYUhc.jpg",
-        "https://framerusercontent.com/images/2q9b5dbTm4I4HKd8kLavq2KwL4.jpg"
+        "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+        "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+        "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png",
+        "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png"
     ],
-    sizes: ["100 ml", "200 ml"],
+    sizes: ["500 ml", "750 ml", "1 L"],
     accordions: [
         {
             id: "info",
-            title: "Information",
-            content: "Balance and refresh your skin with our Face Toner, an alcohol-free formula that hydrates and preps the skin for better absorption of serums and moisturizers. Infused with witch hazel, green tea extract, and rose water, it refines pores, soothes irritation, and enhances skin’s natural glow. Perfect for all skin types, it provides a burst of hydration while removing residual impurities."
+            title: "Product Information",
+            content: "Harpic Power Plus 10X is a one-stop solution for all your toilet cleaning needs. It gives you 10 times better cleaning benefits versus ordinary cleaners: 1. Tough Stain Removal 2. 99.9% Germ Kill 3. Malodor Control 4. Sparkling Clean Toilet 5. Better Viscosity 6. Faster Action 7. Easy to Use 8. Longer Shelf Life 9. Kills Disease Causing Bacteria 10. Removes Yellowish Stains."
         },
         {
             id: "benefits",
-            title: "Benefits",
-            content: "Balances pH, Refreshes, Hydrates, Preps Skin for Moisturizer"
+            title: "Key Benefits",
+            content: "Kills 99.9% of germs, Removes tough stains, Leaves a fresh fragrance, 10X superior cleaning power."
         },
         {
             id: "ingredients",
             title: "Ingredients",
-            content: "Water/Aqua/Eau, Hamamelis Virginiana (Witch Hazel) Water, Camellia Sinensis (Green Tea) Leaf Extract, Rosa Damascena Flower Water, Glycerin, Aloe Barbadensis Leaf Juice, Sodium Hyaluronate, Citric Acid, Phenoxyethanol, Sodium Benzoate."
+            content: "Hydrochloric Acid 10.5% w/w, Hydroxy Ethyl Oleyl Amine, Alkyl Trimethyl Ammonium Chloride, Methyl Salicylate, De-ionized Water."
         }
     ]
 };
@@ -279,9 +310,7 @@ export default function SingleProduct() {
 
     return (
         <div className="bg-white text-gray-900 py-4 md:py-8 lg:py-12">
-            {/* items-start: Ensures the columns don't stretch to match heights.
-        This prevents the image background from growing when FAQs open.
-      */}
+
             <div className="templateContainer grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
 
                 {/* Left Column: Gallery 
@@ -346,12 +375,10 @@ export default function SingleProduct() {
                         <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">
                             {PRODUCT_DATA.category}
                         </span>
-                        <button className="text-gray-400 hover:text-black transition-colors">
-                            <Heart className="w-6 h-6" />
-                        </button>
+
                     </div>
 
-                    <h1 className="text-4xl font-semibold tracking-tight text-gray-900 mb-2">
+                    <h1 className="text-[32px] font-normal tracking-normal text-gray-900 mb-2">
                         {PRODUCT_DATA.title}
                     </h1>
 

@@ -296,42 +296,42 @@ import { Heart } from 'lucide-react';
 const products = [
     {
         id: 1,
-        title: 'Hair Hydrator',
-        category: 'HAIR',
+        title: 'Ariel',
+        category: 'Household',
         price: 89.00,
         originalPrice: null,
         image: '/houseclean/Gemini_Generated_Image_wi1zz9wi1zz9wi1z.png',
-        hoverImage: 'https://framerusercontent.com/images/tuQYhg1jfjMTQ4Baswx5DJGLI.jpg', // Texture image
+        hoverImage: '/dummy-image/images.jpg',
         discount: null,
     },
     {
         id: 2,
-        title: 'Eye Serum',
-        category: 'BODY',
+        title: 'Ariel',
+        category: 'Household',
         price: 79.00,
         originalPrice: null,
         image: '/houseclean/Gemini_Generated_Image_j6xodxj6xodxj6xo.png',
-        hoverImage: 'https://framerusercontent.com/images/eTEAX7NhPuOS8oAhyQRBALCmM.jpg', // Texture image
+        hoverImage: '/dummy-image/images.jpg',
         discount: null,
     },
     {
         id: 3,
-        title: 'Face Toner',
-        category: 'SKIN',
+        title: 'Ariel',
+        category: 'Household',
         price: 69.00,
         originalPrice: null,
         image: '/houseclean/Gemini_Generated_Image_6wxkh6wxkh6wxkh6.png',
-        hoverImage: 'https://framerusercontent.com/images/V5sK2Rr93Pu0le6vED3i268vB8.jpg', // Texture image
+        hoverImage: '/dummy-image/images.jpg',
         discount: null,
     },
     {
         id: 4,
-        title: 'Eye Repair',
-        category: 'BODY',
+        title: 'Ariel',
+        category: 'Household',
         price: 63.20,
         originalPrice: 79.00,
         image: '/houseclean/ChatGPT Image Nov 29, 2025, 11_12_24 AM.png',
-        hoverImage: 'https://framerusercontent.com/images/1GEFBnHEjTG2HznruAv3YGuBQE.jpg', // Texture image
+        hoverImage: '/dummy-image/images.jpg',
         discount: '-20%',
     },
 ];
