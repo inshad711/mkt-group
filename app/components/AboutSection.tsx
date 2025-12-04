@@ -129,19 +129,10 @@ const ArrowRightIcon = () => (
 const AboutSection = () => {
     return (
         <div className='templateContainer'>
-            <section className=" isolate overflow-hidden bg-white/60 backdrop-blur-xl mt-22 py-16 md:py-24 lg:pt-32 lg:pb-24" aria-labelledby="about-mkt-title">
+            <section className=" isolate overflow-hidden bg-white/60 backdrop-blur-xl py-16 md:py-24 lg:pb-24" aria-labelledby="about-mkt-title">
 
                 {/* --- Background Gradient Blobs --- */}
-                {/* <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -left-40 -top-40 h-80 w-80 rounded-full opacity-70 blur-3xl"
-                style={{ background: 'radial-gradient(50% 50%, rgba(124, 230, 175, 0.45) 0%, rgba(124, 230, 175, 0.15) 50%, rgba(124, 230, 175, 0) 100%)' }}
-            ></div>
-            <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -right-24 top-1/3 h-72 w-72 rounded-full opacity-60 blur-3xl"
-                style={{ background: 'radial-gradient(50% 50%, rgba(244, 114, 182, 0.45) 0%, rgba(244, 114, 182, 0.12) 45%, rgba(244, 114, 182, 0) 100%)' }}
-            ></div> */}
+
 
                 <div className=" grid grid-cols-1 items-center gap-12 md:grid-cols-2">
 
@@ -214,9 +205,9 @@ const AboutSection = () => {
                         </div>
 
                         {/* CTA Button */}
-                        <div className="pt-2">
-                            <Link href="/retail" className="inline-flex items-center gap-2 rounded-[5px] border border-[#D4AF37]/70 bg-white/80 px-6 py-3 text-sm font-semibold text-[#D4AF37] shadow-sm backdrop-blur transition-all hover:text-black hover:bg-[#F4F4F4] hover:border-black hover:shadow-md group">
-                                Explore Retail Services
+                        <div className="pt-1">
+                            <Link href="/category" className="inline-flex items-center gap-2 rounded-[5px] border border-[#D4AF37]/70 bg-white/80 px-6 py-3 text-sm font-semibold text-[#D4AF37] shadow-sm backdrop-blur transition-all hover:text-black hover:bg-[#F4F4F4] hover:border-black hover:shadow-md group">
+                                Explore All Categories
                                 <span className="transition-transform group-hover:translate-x-1">
                                     <ArrowRightIcon />
                                 </span>

@@ -101,7 +101,7 @@ const ScrollToTopButton: React.FC = () => {
     return (
         <button
             onClick={scrollToTop}
-            className={`fixed cursor-pointer bottom-6 right-6 p-3 rounded-md bg-black text-white shadow-lg 
+            className={`fixed cursor-pointer bottom-6 z-999 right-6 p-3 rounded-md bg-black text-white shadow-lg 
     hover:bg-black/70 transition-all duration-300 ease-in-out 
     ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-100"} 
     `}

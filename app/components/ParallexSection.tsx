@@ -346,6 +346,8 @@
 // }
 
 
+// D:\mktgroup\app\components\ParallexSection.tsx
+
 "use client";
 
 import React, { useRef } from "react";
@@ -372,7 +374,7 @@ const sections: SectionData[] = [
             "Working round the clock generating revenue by outbound calls almost 24 hours and 7 days a week.",
             "Having customer base of more than 400 groceries and small/medium supermarkets we are growing in number of customers every new day.",
         ],
-        imageSrc: 'https://mktgroup.ae/images/Retail.png',
+        imageSrc: '/dummy-image/68645.jpg',
         inverse: false,
     },
     {
@@ -396,7 +398,7 @@ const sections: SectionData[] = [
             "Our fleet of 7 delivery trucks and professional drivers help us achieve our aim.",
             "Our reach is not limited to Dubai only, we deliver to all emirates and to the remote areas of UAE like (Sajja, Dhaid, Khorfakkan, etc.)",
         ],
-        imageSrc: 'https://mktgroup.ae/images/transport.jpg',
+        imageSrc: '/dummy-image/v2-39md0-2ac7j.jpg',
         inverse: false,
     },
 ];
@@ -494,7 +496,7 @@ const TextContent = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-xs font-bold tracking-[0.2em] text-gray-400 uppercase mb-4"
+                className="text-sm font-normal tracking-[0.2em] text-gray-400 uppercase mb-4"
             >
                 {tagline}
             </motion.span>
@@ -503,7 +505,7 @@ const TextContent = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-[1.1]"
+                className="text-4xl md:text-4xl font-normal text-gray-900 mb-6 leading-[1.1]"
             >
                 {title}
             </motion.h2>
@@ -533,11 +535,11 @@ const TextContent = ({
 // --- Main Page Component (No changes) ---
 export default function ParallexSection() {
     return (
-        <main id="retail" className="min-h-screen bg-white w-full overflow-x-hidden">
-            {/* Navbar Spacer */}
-            <div className="h-24 md:h-32" />
+        <main id="retail" className=" bg-white w-full overflow-x-hidden">
 
-            <div className="flex flex-col  pb-12 md:pb-20">
+
+
+            <div className="flex flex-col  pb-12 md:pb-12 ">
                 {sections.map((section, idx) => (
                     <section
                         key={idx}

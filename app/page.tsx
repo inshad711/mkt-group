@@ -8,24 +8,31 @@ import HelpCenter from "./components/HelpCenter";
 import ProductCard from "./components/ProductCard";
 import FollowUs from "./components/FollowUs";
 import HeroSection from "./components/HeroSection";
-import MulticolumnFeatures from "./components/MulticolumnFeatures";
-import Products from "./components/Products";
-import OurWork from "./components/OurWork";
+// import MulticolumnFeatures from "./components/MulticolumnFeatures";
+// import Products from "./components/Products";
+// import OurWork from "./components/OurWork";
 import ParallexSection from "./components/ParallexSection";
 import WhyTop from "./components/WhyTop";
-import AshwagandhaSection from "./components/AshwagandhaSection";
-import CardSection from "./components/CardSection";
-import FullCard from "./components/FullCard";
-import SingleProduct from "./components/SingleProduct";
-import AnimatedCard from "./components/AnimatedCard";
+// import AshwagandhaSection from "./components/AshwagandhaSection";
+// import CardSection from "./components/CardSection";
+// import FullCard from "./components/FullCard";
+// import SingleProduct from "./components/SingleProduct";
+// import AnimatedCard from "./components/AnimatedCard";
 import FreeService from "./components/FreeService";
+import PromoCard from "./components/PromoCard";
+import TrendingSection from "./components/TrendingSection";
+import CategoryCarousel from "./components/CategoryCarousel";
 
 export default function Home() {
   return (
     <div className="">
       <HeroSection />
+      <PromoCard />
+      <TrendingSection />
+      <CategoryCarousel />
       <Overlapping />
-      <ProductCard />
+      {/* <ProductCard /> */}
+
       {/* <AnimatedCard /> */}
       {/* <AboutSection /> */}
       <ReasonToChoose />
@@ -35,8 +42,8 @@ export default function Home() {
       {/* <AshwagandhaSection /> */}
       {/* <MulticolumnFeatures /> */}
       {/* <Products /> */}
-      <ParallexSection />
-      <WhyTop />
+      {/* <ParallexSection /> */}
+      {/* <WhyTop /> */}
       {/* <OurWork /> */}
       <FreeService />
       {/* <FollowUs /> */}

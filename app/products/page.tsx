@@ -1,13 +1,24 @@
+// D:\mktgroup\app\products\page.tsx
+
 import React from 'react'
-import FullCard from '../components/FullCard'
-import CardSection from '../components/CardSection'
-import SingleProduct from '../components/SingleProduct'
+
 import FullProductCard from '../components/FullProductCard'
+import FullCard from '../components/FullCard'
+import SingleProduct from '../components/SingleProduct'
+import NewBreadCrumb from '../components/NewBreadCrumb';
+
+const pageTitle = "Our Products";
 
 const ProductPage = () => {
     return (
         <div>
-            {/* <CardSection /> */}
+
+            <NewBreadCrumb
+                title={pageTitle}
+                page={pageTitle}
+                img="/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.png"
+                version2={false}
+            />
             <FullProductCard />
             <FullCard />
             <SingleProduct />

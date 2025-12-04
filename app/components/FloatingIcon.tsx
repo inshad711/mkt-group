@@ -2,20 +2,17 @@
 "use client";
 import React from 'react';
 
-/**
- * WhatsAppFloatingButton Component
- * * A fixed floating action button (FAB) for WhatsApp.
- * It uses Tailwind CSS for positioning and the "pulse" animation.
- */
+
 const FloatingIcon = () => {
     // The link provided in your snippet
-    const whatsappLink = "http://izea.pl/ctb/I";
+    const phoneNumber = "97142255765";
+    const whatsappLink = `https://wa.me/${phoneNumber}`;
 
     // The image URL provided in your snippet
     const imageUrl = "https://d13pvy8xd75yde.cloudfront.net/global/india/whatsapp/Whatsapp-Icon-for-website.png";
 
     return (
-        <div className="fixed bottom-6 left-6 z-50 group">
+        <div className="fixed bottom-6 left-6 z-999 group">
 
             <a
                 href={whatsappLink}

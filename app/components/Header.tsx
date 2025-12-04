@@ -1579,8 +1579,8 @@
 
 //                     {/* --- Mega Menu Dropdown --- */}
 //                     <div
-//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-//                         grid overflow-hidden transition-all duration-500 ease-out z-40 
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
 //                         ${activeDropdown
 //                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
 //                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -1778,7 +1778,7 @@
 //                                     <a
 //                                         href={link.href}
 //                                         // 7. Update Nav Text Colors based on page
-//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''} 
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
 //                                         ${isHomePage
 //                                                 ? 'text-white hover:text-white/70'
 //                                                 : 'text-gray-900 hover:text-gray-600'
@@ -1817,8 +1817,8 @@
 //                     {/* --- Mega Menu Dropdown --- */}
 //                     {/* Dropdown styles remain untouched (bg-white, text-gray) as requested */}
 //                     <div
-//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-//                         grid overflow-hidden transition-all duration-500 ease-out z-40 
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
 //                         ${activeDropdown
 //                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
 //                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -2027,7 +2027,7 @@
 //                                     <Link
 //                                         // 7. Use getLinkHref here
 //                                         href={getLinkHref(link.href)}
-//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''} 
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
 //                                         ${isHomePage
 //                                                 ? 'text-white hover:text-white/70'
 //                                                 : 'text-gray-900 hover:text-gray-600'
@@ -2064,8 +2064,8 @@
 
 //                     {/* --- Mega Menu Dropdown --- */}
 //                     <div
-//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-//                         grid overflow-hidden transition-all duration-500 ease-out z-40 
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
 //                         ${activeDropdown
 //                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
 //                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -2280,7 +2280,7 @@
 //                                     <Link
 //                                         // 7. Use getLinkHref here
 //                                         href={getLinkHref(link.href)}
-//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''} 
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
 //                                         ${isHomePage
 //                                                 ? 'text-white hover:text-white/70'
 //                                                 : 'text-gray-900 hover:text-gray-600'
@@ -2317,8 +2317,8 @@
 
 //                     {/* --- Mega Menu Dropdown --- */}
 //                     <div
-//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-//                         grid overflow-hidden transition-all duration-500 ease-out z-40 
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
 //                         ${activeDropdown
 //                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
 //                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -2551,7 +2551,7 @@
 //                                     <Link
 //                                         // 7. Retaining getLinkHref (Fix for hash links across pages)
 //                                         href={getLinkHref(link.href)}
-//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''} 
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
 //                                         ${isHomePage
 //                                                 ? 'text-white hover:text-white/70'
 //                                                 : 'text-gray-900 hover:text-gray-600'
@@ -2573,8 +2573,8 @@
 
 //                     {/* --- Mega Menu Dropdown --- */}
 //                     <div
-//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-//                         grid overflow-hidden transition-all duration-500 ease-out z-40 
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
 //                         ${activeDropdown
 //                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
 //                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -2654,86 +2654,5932 @@
 //     );
 // }
 
+
+
+/////////////////// static version ///////////////////
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+
+// // --- DATA CONSTANTS ---
+// const CATEGORIES = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         href: '/store-grid/food'
+//     },
+//     {
+//         id: 'non-food',
+//         label: 'Non Food',
+//         image: '/category/Gemini_Generated_Image_3joxeu3joxeu3jox.png',
+//         href: '/store-grid/non-food'
+//     },
+//     {
+//         id: 'commodities',
+//         label: 'Commodities',
+//         image: '/category/Gemini_Generated_Image_vw0wrzvw0wrzvw0w.png',
+//         href: '/store-grid/commodities'
+//     },
+//     {
+//         id: 'disposable',
+//         label: 'Disposable',
+//         image: '/category/Gemini_Generated_Image_c9cxf2c9cxf2c9cx.png',
+//         href: '/store-grid/disposable'
+//     }
+// ];
+
+// const PRODUCT_CATEGORIES = [
+//     { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
+//     { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
+//     { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
+//     { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
+//     { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
+// ];
+
+// const NAV_LINKS = [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: CATEGORIES },
+//     { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
+//     { id: 'brand', label: 'Brand', href: '#brand' },
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+//     { id: 'contact', label: 'Contact', href: '/contact' },
+// ];
+
+// export default function Header() {
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     const getLinkHref = (href: string) => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     const activeDropdownContent = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo (Now the *only* element in this row on desktop) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+1234567890" className="lg:hidden absolute left-4 flex items-center gap-2 text-sm font-medium">
+//                         {/* <Phone size={16} /> */}
+//                         <span>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <img
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (The second row) */}
+//                 {/* Dynamic Border Color */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     {/* The navigation container is now a flex container with justify-between */}
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number (Moved to the second row) */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (Centered) */}
+//                         {/* We use ml-auto mr-auto to center the nav relative to the container,
+//                            while the phone/enquire now stay at the edges */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => (
+//                                 <div
+//                                     key={link.id}
+//                                     className="relative group"
+//                                     onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                 >
+//                                     <Link
+//                                         href={getLinkHref(link.href)}
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                         ${isHomePage
+//                                                 ? 'text-white hover:text-white/70'
+//                                                 : 'text-gray-900 hover:text-gray-600'
+//                                             }`}
+//                                         onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                     >
+//                                         {link.label}
+//                                         {link.hasDropdown && (
+//                                             <ChevronDown
+//                                                 size={14}
+//                                                 className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                             />
+//                                         )}
+//                                     </Link>
+//                                 </div>
+//                             ))}
+//                         </nav>
+
+//                         {/* RIGHT: Enquire Now (Moved to the second row) */}
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-blue-200' : 'hover:text-blue-600'}`}>
+//                             Enquire Now
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         {/* Inner wrapper required for grid animation */}
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <img
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (Unchanged) --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a key={cat.id} href={cat.href} className="block text-xs text-gray-600 py-1" onClick={() => setIsMobileMenuOpen(false)}>
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+
+/////////// dynamic version ///////////
+
 // D:\mktgroup\app\components\Header.tsx
+
+// "use client";
+
+// import React, { useState } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+
+// // --- DATA CONSTANTS ---
+// const CATEGORIES = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         href: '/store-grid/food'
+//     },
+//     {
+//         id: 'non-food',
+//         label: 'Non Food',
+//         image: '/category/Gemini_Generated_Image_3joxeu3joxeu3jox.png',
+//         href: '/store-grid/non-food'
+//     },
+//     {
+//         id: 'commodities',
+//         label: 'Commodities',
+//         image: '/category/Gemini_Generated_Image_vw0wrzvw0wrzvw0w.png',
+//         href: '/store-grid/commodities'
+//     },
+//     {
+//         id: 'disposable',
+//         label: 'Disposable',
+//         image: '/category/Gemini_Generated_Image_c9cxf2c9cxf2c9cx.png',
+//         href: '/store-grid/disposable'
+//     }
+// ];
+
+// const PRODUCT_CATEGORIES = [
+//     { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
+//     { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
+//     { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
+//     { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
+//     { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
+// ];
+
+// const NAV_LINKS = [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: CATEGORIES },
+//     { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
+//     { id: 'brand', label: 'Brand', href: '#brand' },
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+//     { id: 'contact', label: 'Contact', href: '/contact' },
+// ];
+
+// export default function Header() {
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     const getLinkHref = (href: string) => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     const activeDropdownContent = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo (Now the *only* element in this row on desktop) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+1234567890" className="lg:hidden absolute left-4 flex items-center gap-2 text-sm font-medium">
+//                         {/* <Phone size={16} /> */}
+//                         <span>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <img
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (The second row) */}
+//                 {/* Dynamic Border Color */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     {/* The navigation container is now a flex container with justify-between */}
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number (Moved to the second row) */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (Centered) */}
+//                         {/* We use ml-auto mr-auto to center the nav relative to the container,
+//                            while the phone/enquire now stay at the edges */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => (
+//                                 <div
+//                                     key={link.id}
+//                                     className="relative group"
+//                                     onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                 >
+//                                     <Link
+//                                         href={getLinkHref(link.href)}
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                         ${isHomePage
+//                                                 ? 'text-white hover:text-white/70'
+//                                                 : 'text-gray-900 hover:text-gray-600'
+//                                             }`}
+//                                         onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                     >
+//                                         {link.label}
+//                                         {link.hasDropdown && (
+//                                             <ChevronDown
+//                                                 size={14}
+//                                                 className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                             />
+//                                         )}
+//                                     </Link>
+//                                 </div>
+//                             ))}
+//                         </nav>
+
+//                         {/* RIGHT: Enquire Now (Moved to the second row) */}
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-blue-200' : 'hover:text-blue-600'}`}>
+//                             Enquire Now
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         {/* Inner wrapper required for grid animation */}
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <img
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (Unchanged) --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a key={cat.id} href={cat.href} className="block text-xs text-gray-600 py-1" onClick={() => setIsMobileMenuOpen(false)}>
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+
+// // --- DATA CONSTANTS (Kept for reference, but CATEGORIES will be overwritten) ---
+
+// // Hardcoded CATEGORIES will be replaced by fetched data
+// let CATEGORIES = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     // ... other hardcoded categories
+// ];
+
+// const PRODUCT_CATEGORIES = [
+//     { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
+//     { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
+//     { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
+//     { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
+//     { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
+// ];
+
+// // The full NAV_LINKS array now depends on the dynamic CATEGORIES state
+// const getNavLinks = (dynamicCategories) => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+//     { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
+//     { id: 'brand', label: 'Brand', href: '#brand' },
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+//     { id: 'contact', label: 'Contact', href: '/contact' },
+// ];
+
+// export default function Header() {
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+//     // 1. State for dynamic categories
+//     const [dynamicCategories, setDynamicCategories] = useState(CATEGORIES); // Start with hardcoded data as fallback/initial state
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // 2. Fetch function
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+//             if (!response.ok) {
+//                 throw new Error(`HTTP error! status: ${response.status}`);
+//             }
+//             const data = await response.json();
+
+//             // 3. Transformation logic: Convert API format to component format
+//             const transformedCategories = data.categories.map(cat => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 href: `/store-grid/${cat.slug}` // Assumes the slug is used in the href
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+//         } catch (error) {
+//             console.error("Error fetching categories:", error);
+//             // Optionally keep the hardcoded data if fetch fails
+//         }
+//     }, []);
+
+//     // 4. useEffect to run fetch on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]);
+
+//     // Use the function to get the latest navigation links with dynamic categories
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     const getLinkHref = (href: string) => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     const activeDropdownContent = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo (Now the *only* element in this row on desktop) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+1234567890" className="lg:hidden absolute left-4 flex items-center gap-2 text-sm font-medium">
+//                         {/* <Phone size={16} /> */}
+//                         <span>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <img
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (The second row) */}
+//                 {/* Dynamic Border Color */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     {/* The navigation container is now a flex container with justify-between */}
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number (Moved to the second row) */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (Centered) */}
+//                         {/* We use ml-auto mr-auto to center the nav relative to the container,
+//                             while the phone/enquire now stay at the edges */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => (
+//                                 <div
+//                                     key={link.id}
+//                                     className="relative group"
+//                                     onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                 >
+//                                     <Link
+//                                         href={getLinkHref(link.href)}
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                         ${isHomePage
+//                                                 ? 'text-white hover:text-white/70'
+//                                                 : 'text-gray-900 hover:text-gray-600'
+//                                             }`}
+//                                         onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                     >
+//                                         {link.label}
+//                                         {link.hasDropdown && (
+//                                             <ChevronDown
+//                                                 size={14}
+//                                                 className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                             />
+//                                         )}
+//                                     </Link>
+//                                 </div>
+//                             ))}
+//                         </nav>
+
+//                         {/* RIGHT: Enquire Now (Moved to the second row) */}
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-blue-200' : 'hover:text-blue-600'}`}>
+//                             Enquire Now
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         {/* Inner wrapper required for grid animation */}
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <img
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (Unchanged) --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a key={cat.id} href={cat.href} className="block text-xs text-gray-600 py-1" onClick={() => setIsMobileMenuOpen(false)}>
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+// // --- DATA CONSTANTS (Initial/Fallback Data) ---
+// const PRODUCT_CATEGORIES: CategoryItem[] = [
+//     { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
+//     { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
+//     { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
+//     { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
+//     { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
+// ];
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         href: '/store-grid/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+// /** * Function to construct the NAV_LINKS array using the current dynamic categories state.
+//  * This ensures that when dynamicCategories updates, the navigation structure is rebuilt.
+//  */
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+//     { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
+//     { id: 'brand', label: 'Brand', href: '#brand' },
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+//     { id: 'contact', label: 'Contact', href: '/contact' },
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 href: `/store-grid/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+1234567890" className="lg:hidden absolute left-4 flex items-center gap-2 text-sm font-medium">
+//                         {/* <Phone size={16} /> */}
+//                         <span>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div>
+
+//                         {/* CENTER: Nav Links */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => (
+//                                 <div
+//                                     key={link.id}
+//                                     className="relative group"
+//                                     onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                 >
+//                                     <Link
+//                                         href={getLinkHref(link.href)}
+//                                         className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                         ${isHomePage
+//                                                 ? 'text-white hover:text-white/70'
+//                                                 : 'text-gray-900 hover:text-gray-600'
+//                                             }`}
+//                                         onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                     >
+//                                         {link.label}
+//                                         {link.hasDropdown && (
+//                                             <ChevronDown
+//                                                 size={14}
+//                                                 className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                             />
+//                                         )}
+//                                     </Link>
+//                                 </div>
+//                             ))}
+//                         </nav>
+
+//                         {/* RIGHT: Enquire Now */}
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-blue-200' : 'hover:text-blue-600'}`}>
+//                             Enquire Now
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+// // --- DATA CONSTANTS (Initial/Fallback Data) ---
+// const PRODUCT_CATEGORIES: CategoryItem[] = [
+//     { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
+//     { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
+//     { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
+//     { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
+//     { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
+// ];
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         href: '/store-grid/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+// /** * Function to construct the NAV_LINKS array using the current dynamic categories state.
+//  * This ensures that when dynamicCategories updates, the navigation structure is rebuilt.
+//  */
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+//     // { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 href: `/store-grid/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/products/frozen' mark the '/products' link as active.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         {/* <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div> */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                             ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-gray-900 hover:text-gray-600'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-[#D4AF37]' : 'hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // FIX: Close dropdown on link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         href: '/store-grid/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         href: '/store-grid/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+// /** * Function to construct the NAV_LINKS array using the current dynamic categories state.
+//  * This ensures that when dynamicCategories updates, the navigation structure is rebuilt.
+//  */
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 href: `/store-grid/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/products/frozen' mark the '/products' link as active.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         {/* <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div> */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                             ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-gray-900 hover:text-gray-600'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-[#D4AF37]' : 'hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // FIX: Close dropdown on link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+////////////////////////////////////////
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+// /** * Function to construct the NAV_LINKS array using the current dynamic categories state.
+//  * This ensures that when dynamicCategories updates, the navigation structure is rebuilt.
+//  */
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         {/* <div className="flex items-center gap-2 text-sm">
+//                             <span>+971 42255765</span>
+//                         </div> */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-gray-900 hover:text-gray-600'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-[#D4AF37]' : 'hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // FIX: Close dropdown on link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+/////////////////////////////////////////
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+// /** * Function to construct the NAV_LINKS array using the current dynamic categories state.
+//  * This ensures that when dynamicCategories updates, the navigation structure is rebuilt.
+//  */
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         {/* <div className="flex items-center gap-2 text-sm">
+//                              <span>+971 42255765</span>
+//                          </div> */}
+//                         <div className="flex items-center gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-gray-900 hover:text-gray-600'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-[#D4AF37]' : 'hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+///////////////// working ///////////////////
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+/////////////
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className="lg:hidden  absolute left-4 flex items-center gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                                 {link.hasDropdown && (
+//                                     <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="block text-xs text-gray-600 py-1"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {cat.label}
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) */}
+//                     <a href="tel:+971 42255765" className=" block lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR GRID LAYOUT) --- */}
+//                 {isMobileMenuOpen && (
+//                     <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
+//                         {NAV_LINKS.map((link) => (
+//                             <div key={link.id}>
+//                                 {/* Main Mobile Link */}
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-2 text-gray-900"
+//                                     onClick={() => {
+//                                         if (!link.hasDropdown) {
+//                                             setIsMobileMenuOpen(false);
+//                                         }
+//                                     }}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+
+//                                 {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style */}
+//                                 {link.hasDropdown && (
+//                                     <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                         {/* **This is the key to mobile responsiveness and the "mega menu" look** */}
+//                                         <div className="grid grid-cols-2 gap-3 py-2">
+//                                             {link.categories?.map(cat => (
+//                                                 <a
+//                                                     key={cat.id}
+//                                                     href={cat.href}
+//                                                     className="group block text-center"
+//                                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                                 >
+//                                                     {/* Category Image container - responsive square aspect ratio */}
+//                                                     <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                         <Image
+//                                                             src={cat.image}
+//                                                             alt={cat.label}
+//                                                             fill
+//                                                             sizes="(max-width: 600px) 50vw, 100px"
+//                                                             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                         />
+//                                                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                     </div>
+//                                                     {/* Category Label */}
+//                                                     <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                         {cat.label}
+//                                                     </h3>
+//                                                 </a>
+//                                             ))}
+//                                         </div>
+//                                     </div>
+//                                 )}
+//                             </div>
+//                         ))}
+//                     </div>
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className="hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN) --- */}
+//                 {/* 1. Use fixed or absolute on the viewport (right-0)
+//                     2. Add transition-transform duration-300
+//                     3. Conditional transform: translate-x-full (off-screen) or translate-x-0 (on-screen)
+//                     4. Use z-40 (below header, but above content)
+//                 */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 right-0 h-full w-full max-w-xs bg-white shadow-lg p-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform translate-x-full'}`}
+//                 >
+//                     {/* Add a close button at the top right of the menu panel */}
+//                     <div className="flex justify-end">
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu */}
+//                     <a href="tel:+971 42255765" className="text-sm font-bold tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link */}
+//                             <Link
+//                                 href={getLinkHref(link.href)}
+//                                 className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                                 onClick={() => {
+//                                     // Close menu if it's a regular link (not a dropdown)
+//                                     if (!link.hasDropdown) {
+//                                         setIsMobileMenuOpen(false);
+//                                     }
+//                                 }}
+//                             >
+//                                 {link.label}
+//                             </Link>
+
+//                             {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style */}
+//                             {link.hasDropdown && (
+//                                 <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                     <div className="grid grid-cols-2 gap-3 py-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="group block text-center"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {/* Category Image container - responsive square aspect ratio */}
+//                                                 <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                     <Image
+//                                                         src={cat.image}
+//                                                         alt={cat.label}
+//                                                         fill
+//                                                         sizes="(max-width: 600px) 50vw, 100px"
+//                                                         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                     />
+//                                                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                 </div>
+//                                                 {/* Category Label */}
+//                                                 <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                     {cat.label}
+//                                                 </h3>
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className="hidden lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT) --- */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 **left-0** h-full w-full max-w-xs bg-white shadow-lg p-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform **-translate-x-full**'}`}
+//                 >
+//                     {/* Close button at the top right of the menu panel */}
+//                     <div className="flex justify-end">
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu */}
+//                     <a href="tel:+971 42255765" className="text-sm font-bold tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link */}
+//                             <Link
+//                                 href={getLinkHref(link.href)}
+//                                 className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                                 onClick={() => {
+//                                     // Close menu if it's a regular link (not a dropdown)
+//                                     if (!link.hasDropdown) {
+//                                         setIsMobileMenuOpen(false);
+//                                     }
+//                                 }}
+//                             >
+//                                 {link.label}
+//                             </Link>
+
+//                             {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style */}
+//                             {link.hasDropdown && (
+//                                 <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                     <div className="grid grid-cols-2 gap-3 py-2">
+//                                         {link.categories?.map(cat => (
+//                                             <a
+//                                                 key={cat.id}
+//                                                 href={cat.href}
+//                                                 className="group block text-center"
+//                                                 onClick={() => setIsMobileMenuOpen(false)}
+//                                             >
+//                                                 {/* Category Image container - responsive square aspect ratio */}
+//                                                 <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                     <Image
+//                                                         src={cat.image}
+//                                                         alt={cat.label}
+//                                                         fill
+//                                                         sizes="(max-width: 600px) 50vw, 100px"
+//                                                         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                     />
+//                                                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                 </div>
+//                                                 {/* Category Label */}
+//                                                 <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                     {cat.label}
+//                                                 </h3>
+//                                             </a>
+//                                         ))}
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic (unchanged) ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // *** FIX 2: Prevent body scroll when mobile menu is open ***
+//     useEffect(() => {
+//         if (isMobileMenuOpen) {
+//             document.body.style.overflow = 'hidden';
+//         } else {
+//             document.body.style.overflow = 'unset';
+//         }
+//         // Cleanup function to ensure scroll is re-enabled if component unmounts
+//         return () => {
+//             document.body.style.overflow = 'unset';
+//         };
+//     }, [isMobileMenuOpen]);
+
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     // Helper to toggle mobile dropdown
+//     const toggleMobileDropdown = (linkId: string) => {
+//         if (activeDropdown === linkId) {
+//             setActiveDropdown(null);
+//         } else {
+//             setActiveDropdown(linkId);
+//         }
+//     };
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         // Ensure the component is rendered on top
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes (unchanged) */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area (unchanged) --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles (unchanged) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className="hidden lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) (unchanged) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) (unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT) --- */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 left-0 h-full w-full max-w-xs bg-white shadow-lg p-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
+//                 >
+//                     {/* Close button at the top right of the menu panel (unchanged) */}
+//                     <div className="flex justify-end">
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu (unchanged) */}
+//                     <a href="tel:+971 42255765" className="text-sm font-bold tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link - MODIFIED for dropdowns to be a button or link */}
+//                             {link.hasDropdown ? (
+//                                 // *** FIX 1: Use a button to handle dropdown toggle/display ***
+//                                 <div
+//                                     className="flex items-center justify-between text-sm font-bold tracking-widest py-3 text-gray-900 uppercase cursor-pointer"
+//                                     onClick={() => toggleMobileDropdown(link.id)}
+//                                 >
+//                                     {link.label}
+//                                     <ChevronDown
+//                                         size={18}
+//                                         className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                     />
+//                                 </div>
+//                             ) : (
+//                                 // Regular Link
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                             )}
+
+
+//                             {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style, conditionally rendered */}
+//                             {link.hasDropdown && (
+//                                 <div className={`overflow-hidden transition-all duration-300 ${activeDropdown === link.id ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
+//                                     <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                         <div className="grid grid-cols-2 gap-3 py-2">
+//                                             {link.categories?.map(cat => (
+//                                                 <Link
+//                                                     key={cat.id}
+//                                                     href={cat.href}
+//                                                     className="group block text-center"
+//                                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                                 >
+//                                                     {/* Category Image container - responsive square aspect ratio */}
+//                                                     <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                         <Image
+//                                                             src={cat.image}
+//                                                             alt={cat.label}
+//                                                             fill
+//                                                             sizes="(max-width: 600px) 50vw, 100px"
+//                                                             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                         />
+//                                                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                     </div>
+//                                                     {/* Category Label */}
+//                                                     <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                         {cat.label}
+//                                                     </h3>
+//                                                 </Link>
+//                                             ))}
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open (unchanged) */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- CONFIGURATION ---
+// // Define the LG breakpoint used by Tailwind CSS (default is 1024px)
+// const LG_BREAKPOINT = 1024;
+
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic (unchanged) ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // *** FIX 2: Prevent body scroll when mobile menu is open ***
+//     useEffect(() => {
+//         if (isMobileMenuOpen) {
+//             document.body.style.overflow = 'hidden';
+//         } else {
+//             document.body.style.overflow = 'unset';
+//         }
+//         // Cleanup function to ensure scroll is re-enabled if component unmounts
+//         return () => {
+//             document.body.style.overflow = 'unset';
+//         };
+//     }, [isMobileMenuOpen]);
+
+
+//     // *** FIX 3: Automatically close mobile menu on desktop resize ***
+//     useEffect(() => {
+//         // Function to close the menu if the screen size crosses the 'lg' breakpoint
+//         const handleResize = () => {
+//             if (typeof window !== 'undefined' && window.innerWidth >= LG_BREAKPOINT) {
+//                 // Only close it if it's currently open
+//                 if (isMobileMenuOpen) {
+//                     setIsMobileMenuOpen(false);
+//                 }
+//             }
+//         };
+
+//         // Initialize and attach the event listener
+//         window.addEventListener('resize', handleResize);
+
+//         // Cleanup function
+//         return () => {
+//             window.removeEventListener('resize', handleResize);
+//         };
+//     }, [isMobileMenuOpen]); // Dependency on isMobileMenuOpen is important for running the check when state changes
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     // Helper to toggle mobile dropdown
+//     const toggleMobileDropdown = (linkId: string) => {
+//         if (activeDropdown === linkId) {
+//             setActiveDropdown(null);
+//         } else {
+//             setActiveDropdown(linkId);
+//         }
+//     };
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         // Ensure the component is rendered on top
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes (unchanged) */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area (unchanged) --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles (unchanged) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className="hidden lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) (unchanged) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) (unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT) --- */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 left-0 h-full w-full max-w-xs bg-white shadow-lg p-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
+//                 >
+//                     {/* Close button at the top right of the menu panel (unchanged) */}
+//                     <div className="flex justify-end">
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu (unchanged) */}
+//                     <a href="tel:+971 42255765" className="text-sm font-bold tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link - MODIFIED for dropdowns to be a button or link */}
+//                             {link.hasDropdown ? (
+//                                 // *** FIX 1: Use a button to handle dropdown toggle/display ***
+//                                 <div
+//                                     className="flex items-center justify-between text-sm font-bold tracking-widest py-3 text-gray-900 uppercase cursor-pointer"
+//                                     onClick={() => toggleMobileDropdown(link.id)}
+//                                 >
+//                                     {link.label}
+//                                     <ChevronDown
+//                                         size={18}
+//                                         className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                     />
+//                                 </div>
+//                             ) : (
+//                                 // Regular Link
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                             )}
+
+
+//                             {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style, conditionally rendered */}
+//                             {link.hasDropdown && (
+//                                 <div className={`overflow-hidden transition-all duration-300 ${activeDropdown === link.id ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
+//                                     <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                         <div className="grid grid-cols-2 gap-3 py-2">
+//                                             {link.categories?.map(cat => (
+//                                                 <Link
+//                                                     key={cat.id}
+//                                                     href={cat.href}
+//                                                     className="group block text-center"
+//                                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                                 >
+//                                                     {/* Category Image container - responsive square aspect ratio */}
+//                                                     <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                         <Image
+//                                                             src={cat.image}
+//                                                             alt={cat.label}
+//                                                             fill
+//                                                             sizes="(max-width: 600px) 50vw, 100px"
+//                                                             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                         />
+//                                                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                     </div>
+//                                                     {/* Category Label */}
+//                                                     <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                         {cat.label}
+//                                                     </h3>
+//                                                 </Link>
+//                                             ))}
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open (unchanged) */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+///////////////////////////////////////////////////////////////
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- CONFIGURATION ---
+// // Define the LG breakpoint used by Tailwind CSS (default is 1024px)
+// const LG_BREAKPOINT = 1024;
+
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '/about/#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic (unchanged) ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // *** FIX 2: Prevent body scroll when mobile menu is open ***
+//     useEffect(() => {
+//         if (isMobileMenuOpen) {
+//             document.body.style.overflow = 'hidden';
+//         } else {
+//             document.body.style.overflow = 'unset';
+//         }
+//         // Cleanup function to ensure scroll is re-enabled if component unmounts
+//         return () => {
+//             document.body.style.overflow = 'unset';
+//         };
+//     }, [isMobileMenuOpen]);
+
+
+//     // *** FIX 3: Automatically close mobile menu on desktop resize ***
+//     useEffect(() => {
+//         // Function to close the menu if the screen size crosses the 'lg' breakpoint
+//         const handleResize = () => {
+//             if (typeof window !== 'undefined' && window.innerWidth >= LG_BREAKPOINT) {
+//                 // Only close it if it's currently open
+//                 if (isMobileMenuOpen) {
+//                     setIsMobileMenuOpen(false);
+//                 }
+//             }
+//         };
+
+//         // Initialize and attach the event listener
+//         window.addEventListener('resize', handleResize);
+
+//         // Cleanup function
+//         return () => {
+//             window.removeEventListener('resize', handleResize);
+//         };
+//     }, [isMobileMenuOpen]); // Dependency on isMobileMenuOpen is important for running the check when state changes
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     // Helper to toggle mobile dropdown
+//     const toggleMobileDropdown = (linkId: string) => {
+//         if (activeDropdown === linkId) {
+//             setActiveDropdown(null);
+//         } else {
+//             setActiveDropdown(linkId);
+//         }
+//     };
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         // Ensure the component is rendered on top
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes (unchanged) */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area (unchanged) --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles (unchanged) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className=" block lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-10 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) (unchanged) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center  text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) (unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT AND ADDED LOGO) --- */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 left-0 h-full w-full max-w-xs bg-white shadow-lg py-3 px-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
+//                 >
+//                     {/* MODIFIED: Header for Mobile Menu with Logo and Close Button */}
+//                     <div className="flex justify-between items-center mb-4">
+//                         {/* Logo on the left */}
+//                         <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+//                             <Image
+//                                 src="/image/mktlogo.png"
+//                                 alt="AXELS Logo"
+//                                 width={60}
+//                                 height={38}
+//                                 // The logo should not be inverted inside the white mobile menu panel
+//                                 className={`h-10 md:h-12 transition-all duration-300`}
+//                             />
+//                         </Link>
+//                         {/* Close button on the right */}
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu (unchanged) */}
+//                     <a href="tel:+971 42255765" className="text-sm font-normal tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link - MODIFIED for dropdowns to be a button or link */}
+//                             {link.hasDropdown ? (
+//                                 // *** FIX 1: Use a button to handle dropdown toggle/display ***
+//                                 <div
+//                                     className="flex items-center justify-between text-sm font-normal tracking-widest py-3 text-gray-900 uppercase cursor-pointer"
+//                                     onClick={() => toggleMobileDropdown(link.id)}
+//                                 >
+//                                     {link.label}
+//                                     <ChevronDown
+//                                         size={18}
+//                                         className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                     />
+//                                 </div>
+//                             ) : (
+//                                 // Regular Link
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-normal tracking-widest py-3 text-gray-900 uppercase"
+//                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                             )}
+
+
+//                             {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style, conditionally rendered */}
+//                             {link.hasDropdown && (
+//                                 <div className={`overflow-hidden transition-all duration-300 ${activeDropdown === link.id ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
+//                                     <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                         <div className="grid grid-cols-2 gap-3 py-2">
+//                                             {link.categories?.map(cat => (
+//                                                 <Link
+//                                                     key={cat.id}
+//                                                     href={cat.href}
+//                                                     className="group block text-center"
+//                                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                                 >
+//                                                     {/* Category Image container - responsive square aspect ratio */}
+//                                                     <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                         <Image
+//                                                             src={cat.image}
+//                                                             alt={cat.label}
+//                                                             fill
+//                                                             sizes="(max-width: 600px) 50vw, 100px"
+//                                                             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                         />
+//                                                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                     </div>
+//                                                     {/* Category Label */}
+//                                                     <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                         {cat.label}
+//                                                     </h3>
+//                                                 </Link>
+//                                             ))}
+//                                         </div>
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open (unchanged) */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }
+
+
+
+
+// // D:\mktgroup\app\components\Header.tsx
 "use client";
 
-import React, { useState } from 'react';
-import { ChevronDown, X, Menu, Phone } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
-// --- DATA CONSTANTS ---
-const CATEGORIES = [
+// --- CONFIGURATION ---
+// Define the LG breakpoint used by Tailwind CSS (default is 1024px)
+const LG_BREAKPOINT = 1024;
+
+
+// --- INTERFACES ---
+
+/** Defines the structure for a single category item (used in dropdowns) */
+interface CategoryItem {
+    id: string;
+    label: string;
+    image: string;
+    href: string;
+}
+
+/** Defines the structure for a single item in the main navigation bar */
+interface NavLinkItem {
+    id: string;
+    label: string;
+    href: string;
+    hasDropdown?: boolean;
+    categories?: CategoryItem[];
+}
+
+
+// Initial hardcoded data structure for the main CATEGORIES link
+const INITIAL_CATEGORIES: CategoryItem[] = [
     {
         id: 'retail',
         label: 'Retail',
         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
-        href: '/store-grid/retail'
+        // --- UPDATED HREF PATH ---
+        href: '/category/retail'
     },
     {
         id: 'food',
         label: 'Food',
         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
-        href: '/store-grid/food'
+        // --- UPDATED HREF PATH ---
+        href: '/category/food'
     },
-    {
-        id: 'non-food',
-        label: 'Non Food',
-        image: '/category/Gemini_Generated_Image_3joxeu3joxeu3jox.png',
-        href: '/store-grid/non-food'
-    },
-    {
-        id: 'commodities',
-        label: 'Commodities',
-        image: '/category/Gemini_Generated_Image_vw0wrzvw0wrzvw0w.png',
-        href: '/store-grid/commodities'
-    },
-    {
-        id: 'disposable',
-        label: 'Disposable',
-        image: '/category/Gemini_Generated_Image_c9cxf2c9cxf2c9cx.png',
-        href: '/store-grid/disposable'
-    }
+    // ... add more as needed for a robust initial state
 ];
 
-const PRODUCT_CATEGORIES = [
-    { id: 'fresh', label: 'Household Cleaning', image: "/dummy-image/Gemini_Generated_Image_w2e04qw2e04qw2e0.png", href: '/products/fresh' },
-    { id: 'frozen', label: 'Edible Products', image: '/dummy-image/Gemini_Generated_Image_8j3yai8j3yai8j3y.png', href: '/products/frozen' },
-    { id: 'packaged', label: 'Dairy Products', image: '/dummy-image/Gemini_Generated_Image_rrqw3prrqw3prrqw.png', href: '/products/packaged' },
-    { id: 'clothing', label: 'Baby Products', image: '/dummy-image/Gemini_Generated_Image_x76mrdx76mrdx76m.png', href: '/products/clothing' },
-    { id: 'electronics', label: 'Tea & coffee', image: '/dummy-image/Gemini_Generated_Image_rigiv7rigiv7rigi.png', href: '/products/electronics' }
-];
 
-const NAV_LINKS = [
+const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
     { id: 'home', label: 'HOME', href: '/' },
     { id: 'about', label: 'About', href: '/about' },
-    { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: CATEGORIES },
-    { id: 'products', label: 'Product', href: '/products', hasDropdown: true, categories: PRODUCT_CATEGORIES },
-    { id: 'brand', label: 'Brand', href: '#brand' },
-    { id: 'retail', label: 'Retail', href: '#retail' },
-    { id: 'contact', label: 'Contact', href: '/contact' },
+    // Inject the dynamic categories into the 'categories' link
+    { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+    { id: 'retail', label: 'Retail', href: '/about/#retail' },
+
 ];
 
-export default function Header() {
+// Define the expected structure of the API response item for type safety
+interface WpCategory {
+    name: string;
+    slug: string;
+    image: string;
+}
+
+interface WpApiResponse {
+    categories: WpCategory[];
+}
+
+
+export default function Header(): React.JSX.Element {
+
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+    // State to hold the dynamically fetched categories
+    const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
 
     const pathname = usePathname();
     const isHomePage = pathname === '/';
 
-    const getLinkHref = (href: string) => {
+    // --- Data Fetching Logic (unchanged) ---
+    const fetchCategories = useCallback(async () => {
+        try {
+            // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+            // in a single file component environment.
+            const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+            const response = await fetch(API_URL);
+
+            if (!response.ok) {
+                // Log and throw if response is not successful
+                throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+            }
+
+            // Cast the response JSON to the defined interface for type safety
+            const data: WpApiResponse = await response.json();
+
+            // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+            const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+                id: cat.slug,
+                label: cat.name,
+                image: cat.image,
+                // --- UPDATED HREF PATH to /category/[slug] ---
+                href: `/category/${cat.slug}` // Constructing the href dynamically
+            }));
+
+            setDynamicCategories(transformedCategories);
+
+        } catch (error) {
+            console.error("Error fetching or parsing dynamic categories:", error);
+            // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+        }
+    }, []);
+
+    // Effect to run the fetch once on component mount
+    useEffect(() => {
+        fetchCategories();
+    }, [fetchCategories]); // Dependency array includes fetchCategories
+
+    // *** FIX 2: Prevent body scroll when mobile menu is open ***
+    useEffect(() => {
+        if (isMobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+        // Cleanup function to ensure scroll is re-enabled if component unmounts
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isMobileMenuOpen]);
+
+
+    // *** FIX 3: Automatically close mobile menu on desktop resize ***
+    useEffect(() => {
+        // Function to close the menu if the screen size crosses the 'lg' breakpoint
+        const handleResize = () => {
+            if (typeof window !== 'undefined' && window.innerWidth >= LG_BREAKPOINT) {
+                // Only close it if it's currently open
+                if (isMobileMenuOpen) {
+                    setIsMobileMenuOpen(false);
+                }
+            }
+        };
+
+        // Initialize and attach the event listener
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup function
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [isMobileMenuOpen]); // Dependency on isMobileMenuOpen is important for running the check when state changes
+
+    // Re-run getNavLinks whenever dynamicCategories changes
+    const NAV_LINKS = getNavLinks(dynamicCategories);
+
+    // Helper function for link href logic
+    const getLinkHref = (href: string): string => {
         if (!isHomePage && href.startsWith('#')) {
             return `/${href}`;
         }
         return href;
     };
 
-    const activeDropdownContent = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+    // Helper function to determine if a link is active
+    const isLinkActive = (href: string): boolean => {
+        // 1. Get the final, resolved href (handles #anchors correctly)
+        const finalHref = getLinkHref(href);
+        // 2. Remove leading '/' for comparison consistency
+        const cleanPathname = pathname.replace(/^\//, '');
+        const cleanHref = finalHref.replace(/^\//, '');
+
+        // 3. Special case for the home link
+        if (cleanHref === '') {
+            return pathname === '/';
+        }
+
+        // 4. Check if the current path starts with the link's path (for categories/products)
+        // This makes '/category/food' mark the '/category' link as active, or for slug match.
+        return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+    };
+
+    // Find the content for the currently active mega menu dropdown
+    const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+    // Helper to toggle mobile dropdown
+    const toggleMobileDropdown = (linkId: string) => {
+        if (activeDropdown === linkId) {
+            setActiveDropdown(null);
+        } else {
+            setActiveDropdown(linkId);
+        }
+    };
 
     return (
-        <div className={`absolute top-0 left-0 w-full z-50 ${isHomePage ? 'text-white' : 'text-gray-900'}`}>
+        // *** MODIFIED: Use relative positioning unless it is the home page ***
+        // Ensure the component is rendered on top
+        <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
 
-            {/* Inject Custom Animation Keyframes */}
+            {/* Inject Custom Animation Keyframes (unchanged) */}
             <style jsx global>{`
                 @keyframes slideUpFade {
                     0% {
@@ -2747,85 +8593,97 @@ export default function Header() {
                 }
             `}</style>
 
-            {/* --- Main Header Area --- */}
-            <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-white shadow-sm'}`}>
+            {/* --- Main Header Area (unchanged) --- */}
+            <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
 
-                {/* Top Bar for Logo (Now the *only* element in this row on desktop) */}
+                {/* Top Bar for Logo & Mobile Toggles (unchanged) */}
                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
 
-                    {/* Left: Phone (Mobile Only) */}
-                    <a href="tel:+1234567890" className="lg:hidden absolute left-4 flex items-center gap-2 text-sm font-medium">
-                        {/* <Phone size={16} /> */}
-                        <span>+971 42255765</span>
+                    {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+                    <a href="tel:+971 42255765" className=" block lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+                        <span className='cursor-pointer'>+971 42255765</span>
                     </a>
 
                     {/* Center: Logo */}
                     <Link href="/">
-                        <img
+                        <Image
                             src="/image/mktlogo.png"
                             alt="AXELS Logo"
-                            className={`h-9 md:h-12 transition-all duration-300 filter ${isHomePage ? '' : ''}`}
+                            width={60}
+                            height={38}
+                            className={`h-10 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
                         />
                     </Link>
 
                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
-                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden absolute right-4">
-                        {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+                        {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
                     </button>
                 </div>
 
-                {/* Navigation Bar (The second row) */}
-                {/* Dynamic Border Color */}
-                <div className={`border-t relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-gray-200'}`}>
-                    {/* The navigation container is now a flex container with justify-between */}
+                {/* Navigation Bar (Desktop - Second row) (unchanged) */}
+                <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
 
-                        {/* LEFT: Phone Number (Moved to the second row) */}
-                        <div className="flex items-center gap-2 text-sm">
-                            <span>+971 42255765</span>
+                        {/* LEFT: Phone Number */}
+                        <div className="flex items-center  text-white gap-2 text-sm">
+                            <a href="tel:+97142255765">
+                                <span>+971 42255765</span>
+                            </a>
                         </div>
 
-                        {/* CENTER: Nav Links (Centered) */}
-                        {/* We use ml-auto mr-auto to center the nav relative to the container, 
-                           while the phone/enquire now stay at the edges */}
+                        {/* CENTER: Nav Links (with active state logic) */}
                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
-                            {NAV_LINKS.map((link) => (
-                                <div
-                                    key={link.id}
-                                    className="relative group"
-                                    onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
-                                >
-                                    <Link
-                                        href={getLinkHref(link.href)}
-                                        className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''} 
-                                        ${isHomePage
-                                                ? 'text-white hover:text-white/70'
-                                                : 'text-gray-900 hover:text-gray-600'
-                                            }`}
-                                        onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+                            {NAV_LINKS.map((link) => {
+                                const active = isLinkActive(link.href);
+
+                                return (
+                                    <div
+                                        key={link.id}
+                                        className="relative group"
+                                        onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
                                     >
-                                        {link.label}
-                                        {link.hasDropdown && (
-                                            <ChevronDown
-                                                size={14}
-                                                className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
-                                            />
-                                        )}
-                                    </Link>
-                                </div>
-                            ))}
+                                        <Link
+                                            href={getLinkHref(link.href)}
+                                            className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+                                                ${isHomePage
+                                                    ? active
+                                                        ? 'text-white font-normal' // Active on Home
+                                                        : 'text-white hover:text-white/70'
+                                                    : active
+                                                        ? 'text-[#D4AF37] font-normal' // Active elsewhere
+                                                        : 'text-white hover:text-white/70'
+                                                }`}
+                                            onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+                                            // FIX: Close dropdown when any main nav link is clicked
+                                            onClick={() => setActiveDropdown(null)}
+                                        >
+                                            {link.label}
+                                            {link.hasDropdown && (
+                                                <ChevronDown
+                                                    size={14}
+                                                    className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+                                                />
+                                            )}
+                                        </Link>
+                                    </div>
+                                );
+                            })}
                         </nav>
 
-                        {/* RIGHT: Enquire Now (Moved to the second row) */}
-                        <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? 'hover:text-blue-200' : 'hover:text-blue-600'}`}>
-                            Enquire Now
+
+                        <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+                            <a href="/contact">
+                                Contact
+                            </a>
                         </div>
                     </div>
 
-                    {/* --- Mega Menu Dropdown (Unchanged) --- */}
+                    {/* --- Mega Menu Dropdown (Desktop) (unchanged) --- */}
                     <div
-                        className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl 
-                        grid overflow-hidden transition-all duration-500 ease-out z-40 
+                        className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+                        grid overflow-hidden transition-all duration-500 ease-out z-40
                         ${activeDropdown
                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
@@ -2833,25 +8691,28 @@ export default function Header() {
                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
                         onMouseLeave={() => setActiveDropdown(null)}
                     >
-                        {/* Inner wrapper required for grid animation */}
                         <div className="overflow-hidden min-h-0">
                             <div className="max-w-[1400px] mx-auto px-8 py-5">
                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+                                    {/* Map over dynamically fetched categories */}
                                     {activeDropdownContent.map((category, index) => (
                                         <a
                                             href={category.href}
                                             key={category.id}
                                             className="group block text-center"
+                                            onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
                                             style={{
                                                 opacity: 0,
+                                                // Using index for staggered animation effect
                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
                                                 animationDelay: `${index * 120}ms`
                                             }}
                                         >
                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
-                                                <img
+                                                <Image
                                                     src={category.image}
                                                     alt={category.label}
+                                                    fill
                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                                                 />
                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
@@ -2867,37 +8728,609 @@ export default function Header() {
                     </div>
                 </div>
 
-                {/* --- Mobile Menu (Unchanged) --- */}
-                {isMobileMenuOpen && (
-                    <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-200 shadow-lg p-4 flex flex-col gap-4">
-                        {NAV_LINKS.map((link) => (
-                            <div key={link.id}>
+                {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT AND ADDED LOGO) --- */}
+                <div
+                    className={`lg:hidden fixed top-0 left-0 h-full w-full max-w-xs bg-white shadow-lg py-3 px-6 flex flex-col gap-4
+                        transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+                        ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
+                >
+                    {/* MODIFIED: Header for Mobile Menu with Logo and Close Button */}
+                    <div className="flex justify-between items-center mb-4">
+                        {/* Logo on the left */}
+                        <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+                            <Image
+                                src="/image/mktlogo.png"
+                                alt="AXELS Logo"
+                                width={60}
+                                height={38}
+                                // The logo should not be inverted inside the white mobile menu panel
+                                className={`h-10 md:h-12 transition-all duration-300`}
+                            />
+                        </Link>
+                        {/* Close button on the right */}
+                        <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+                            <X size={24} />
+                        </button>
+                    </div>
+
+                    {/* Phone Number at the top of the mobile menu (unchanged) */}
+                    <a href="tel:+971 42255765" className="text-sm font-normal tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+                        <Phone size={16} />
+                        <span>+971 42255765</span>
+                    </a>
+
+
+                    {NAV_LINKS.map((link) => (
+                        <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+                            {/* Main Mobile Link - MODIFIED for dropdowns to be a button or link */}
+                            {link.hasDropdown ? (
+                                // *** FIX 1: Use a button to handle dropdown toggle/display ***
+                                <div
+                                    className="flex items-center justify-between text-sm font-normal tracking-widest py-3 text-gray-900 uppercase cursor-pointer"
+                                    onClick={() => toggleMobileDropdown(link.id)}
+                                >
+                                    {link.label}
+                                    <ChevronDown
+                                        size={18}
+                                        className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+                                    />
+                                </div>
+                            ) : (
+                                // Regular Link
                                 <Link
                                     href={getLinkHref(link.href)}
-                                    className="block text-sm font-bold tracking-widest py-2 text-gray-900"
-                                    onClick={() => {
-                                        if (!link.hasDropdown) {
-                                            setIsMobileMenuOpen(false);
-                                        }
-                                    }}
+                                    className="block text-sm font-normal tracking-widest py-3 text-gray-900 uppercase"
+                                    onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {link.label}
                                 </Link>
-                                {link.hasDropdown && (
-                                    <div className="pl-4 mt-2 border-l-2 border-gray-100 space-y-2">
-                                        {link.categories?.map(cat => (
-                                            <a key={cat.id} href={cat.href} className="block text-xs text-gray-600 py-1" onClick={() => setIsMobileMenuOpen(false)}>
-                                                {cat.label}
-                                            </a>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        ))}
+                            )}
 
+
+                            {/** MODIFIED: Categories dropdown now uses a grid for the mega menu style, conditionally rendered */}
+                            {link.hasDropdown && (
+                                <div className={`overflow-hidden transition-all duration-300 ${activeDropdown === link.id ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                                    <div className="mt-2 p-4 border-2 border-gray-100">
+                                        <div className="grid grid-cols-2 gap-3 pt-2 pb-4">
+                                            {link.categories?.map(cat => (
+                                                <Link
+                                                    key={cat.id}
+                                                    href={cat.href}
+                                                    className="group block text-center"
+                                                    onClick={() => setIsMobileMenuOpen(false)}
+                                                >
+                                                    {/* Category Image container - responsive square aspect ratio */}
+                                                    <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+                                                        <Image
+                                                            src={cat.image}
+                                                            alt={cat.label}
+                                                            fill
+                                                            sizes="(max-width: 600px) 50vw, 100px"
+                                                            className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                                                        />
+                                                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+                                                    </div>
+                                                    {/* Category Label */}
+                                                    <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+                                                        {cat.label}
+                                                    </h3>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <Link
+                                            href={link.href}
+                                            className="block text-center text-xs border font-normal tracking-widest py-3 text-gray-900 uppercase hover:text-[#D4AF37] transition-colors"
+                                            onClick={() => setIsMobileMenuOpen(false)}
+                                        >
+                                            View all categories
+                                        </Link>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                    <div className="border-b border-gray-100">
+                        <a
+                            href="/contact"
+                            className="block text-sm font-normal tracking-widest py-3 text-gray-900 uppercase"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                            Contact
+                        </a>
                     </div>
+
+                </div>
+                {/* MODIFIED: Overlay to darken content when menu is open (unchanged) */}
+                {isMobileMenuOpen && (
+                    <div
+                        className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                    />
                 )}
             </header>
         </div>
     );
 }
+
+
+// // D:\mktgroup\app\components\Header.tsx
+// "use client";
+
+// import React, { useState, useEffect, useCallback } from 'react';
+// import { ChevronDown, X, Menu, Phone, TextAlignEnd } from 'lucide-react';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import Image from 'next/image';
+
+// // --- CONFIGURATION ---
+// // Define the LG breakpoint used by Tailwind CSS (default is 1024px)
+// const LG_BREAKPOINT = 1024;
+
+
+// // --- INTERFACES ---
+
+// /** Defines the structure for a single category item (used in dropdowns) */
+// interface CategoryItem {
+//     id: string;
+//     label: string;
+//     image: string;
+//     href: string;
+// }
+
+// /** Defines the structure for a single item in the main navigation bar */
+// interface NavLinkItem {
+//     id: string;
+//     label: string;
+//     href: string;
+//     hasDropdown?: boolean;
+//     categories?: CategoryItem[];
+// }
+
+
+// // Initial hardcoded data structure for the main CATEGORIES link
+// const INITIAL_CATEGORIES: CategoryItem[] = [
+//     {
+//         id: 'retail',
+//         label: 'Retail',
+//         image: '/dummy-image/Gemini_Generated_Image_yhujcsyhujcsyhuj.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/retail'
+//     },
+//     {
+//         id: 'food',
+//         label: 'Food',
+//         image: '/category/Gemini_Generated_Image_cczy10cczy10cczy.png',
+//         // --- UPDATED HREF PATH ---
+//         href: '/category/food'
+//     },
+//     // ... add more as needed for a robust initial state
+// ];
+
+
+// const getNavLinks = (dynamicCategories: CategoryItem[]): NavLinkItem[] => [
+//     { id: 'home', label: 'HOME', href: '/' },
+//     { id: 'about', label: 'About', href: '/about' },
+//     // Inject the dynamic categories into the 'categories' link
+//     { id: 'categories', label: 'CATEGORIES', href: '/category', hasDropdown: true, categories: dynamicCategories },
+
+
+//     { id: 'retail', label: 'Retail', href: '/about/#retail' },
+
+// ];
+
+// // Define the expected structure of the API response item for type safety
+// interface WpCategory {
+//     name: string;
+//     slug: string;
+//     image: string;
+// }
+
+// interface WpApiResponse {
+//     categories: WpCategory[];
+// }
+
+
+// export default function Header(): React.JSX.Element {
+
+//     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+//     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+//     // State to hold the dynamically fetched categories
+//     const [dynamicCategories, setDynamicCategories] = useState<CategoryItem[]>(INITIAL_CATEGORIES);
+
+//     const pathname = usePathname();
+//     const isHomePage = pathname === '/';
+
+//     // --- Data Fetching Logic (unchanged) ---
+//     const fetchCategories = useCallback(async () => {
+//         try {
+//             // NOTE: Using the direct URL instead of NEXT_PUBLIC_FRONTEND_API_BASE_URL for simplicity
+//             // in a single file component environment.
+//             const API_URL = 'https://mktgroupaebck.demo-web.live/wp-json/custom/v1/getSixCategories';
+//             const response = await fetch(API_URL);
+
+//             if (!response.ok) {
+//                 // Log and throw if response is not successful
+//                 throw new Error(`Failed to fetch categories. Status: ${response.status}`);
+//             }
+
+//             // Cast the response JSON to the defined interface for type safety
+//             const data: WpApiResponse = await response.json();
+
+//             // Transformation: Map WP category structure to our component's required structure (CategoryItem)
+//             const transformedCategories: CategoryItem[] = data.categories.map((cat: WpCategory) => ({
+//                 id: cat.slug,
+//                 label: cat.name,
+//                 image: cat.image,
+//                 // --- UPDATED HREF PATH to /category/[slug] ---
+//                 href: `/category/${cat.slug}` // Constructing the href dynamically
+//             }));
+
+//             setDynamicCategories(transformedCategories);
+
+//         } catch (error) {
+//             console.error("Error fetching or parsing dynamic categories:", error);
+//             // On failure, the component gracefully falls back to using INITIAL_CATEGORIES
+//         }
+//     }, []);
+
+//     // Effect to run the fetch once on component mount
+//     useEffect(() => {
+//         fetchCategories();
+//     }, [fetchCategories]); // Dependency array includes fetchCategories
+
+//     // *** FIX 2: Prevent body scroll when mobile menu is open ***
+//     useEffect(() => {
+//         if (isMobileMenuOpen) {
+//             document.body.style.overflow = 'hidden';
+//         } else {
+//             document.body.style.overflow = 'unset';
+//         }
+//         // Cleanup function to ensure scroll is re-enabled if component unmounts
+//         return () => {
+//             document.body.style.overflow = 'unset';
+//         };
+//     }, [isMobileMenuOpen]);
+
+
+//     // *** FIX 3: Automatically close mobile menu on desktop resize ***
+//     useEffect(() => {
+//         // Function to close the menu if the screen size crosses the 'lg' breakpoint
+//         const handleResize = () => {
+//             if (typeof window !== 'undefined' && window.innerWidth >= LG_BREAKPOINT) {
+//                 // Only close it if it's currently open
+//                 if (isMobileMenuOpen) {
+//                     setIsMobileMenuOpen(false);
+//                 }
+//             }
+//         };
+
+//         // Initialize and attach the event listener
+//         window.addEventListener('resize', handleResize);
+
+//         // Cleanup function
+//         return () => {
+//             window.removeEventListener('resize', handleResize);
+//         };
+//     }, [isMobileMenuOpen]); // Dependency on isMobileMenuOpen is important for running the check when state changes
+
+//     // Re-run getNavLinks whenever dynamicCategories changes
+//     const NAV_LINKS = getNavLinks(dynamicCategories);
+
+//     // Helper function for link href logic
+//     const getLinkHref = (href: string): string => {
+//         if (!isHomePage && href.startsWith('#')) {
+//             return `/${href}`;
+//         }
+//         return href;
+//     };
+
+//     // Helper function to determine if a link is active
+//     const isLinkActive = (href: string): boolean => {
+//         // 1. Get the final, resolved href (handles #anchors correctly)
+//         const finalHref = getLinkHref(href);
+//         // 2. Remove leading '/' for comparison consistency
+//         const cleanPathname = pathname.replace(/^\//, '');
+//         const cleanHref = finalHref.replace(/^\//, '');
+
+//         // 3. Special case for the home link
+//         if (cleanHref === '') {
+//             return pathname === '/';
+//         }
+
+//         // 4. Check if the current path starts with the link's path (for categories/products)
+//         // This makes '/category/food' mark the '/category' link as active, or for slug match.
+//         return cleanPathname.startsWith(cleanHref) && cleanHref !== '';
+//     };
+
+//     // Find the content for the currently active mega menu dropdown
+//     const activeDropdownContent: CategoryItem[] = NAV_LINKS.find(link => link.id === activeDropdown)?.categories || [];
+
+//     // Helper to toggle mobile dropdown
+//     const toggleMobileDropdown = (linkId: string) => {
+//         if (activeDropdown === linkId) {
+//             setActiveDropdown(null);
+//         } else {
+//             setActiveDropdown(linkId);
+//         }
+//     };
+
+//     return (
+//         // *** MODIFIED: Use relative positioning unless it is the home page ***
+//         // Ensure the component is rendered on top
+//         <div className={`w-full z-50 ${isHomePage ? 'absolute top-0 left-0 text-white' : 'relative text-gray-900'}`}>
+
+//             {/* Inject Custom Animation Keyframes (unchanged) */}
+//             <style jsx global>{`
+//                 @keyframes slideUpFade {
+//                     0% {
+//                         opacity: 0;
+//                         transform: translateY(50px);
+//                     }
+//                     100% {
+//                         opacity: 1;
+//                         transform: translateY(0);
+//                     }
+//                 }
+//             `}</style>
+
+//             {/* --- Main Header Area (unchanged) --- */}
+//             <header className={`relative z-50 transition-colors duration-300 ${isHomePage ? 'bg-transparent' : 'bg-[#0B2447] shadow-sm'}`}>
+
+//                 {/* Top Bar for Logo & Mobile Toggles (unchanged) */}
+//                 <div className="flex items-center justify-center py-3 md:py-3 px-4 md:px-8 max-w-[1400px] mx-auto">
+
+//                     {/* Left: Phone (Mobile Only) - REMOVED from top bar to be inside mobile menu */}
+//                     <a href="tel:+971 42255765" className=" block lg:hidden text-white absolute left-4 gap-2 text-sm font-medium">
+
+//                         <span className='cursor-pointer'>+971 42255765</span>
+//                     </a>
+
+//                     {/* Center: Logo */}
+//                     <Link href="/">
+//                         <Image
+//                             src="/image/mktlogo.png"
+//                             alt="AXELS Logo"
+//                             width={60}
+//                             height={38}
+//                             className={`h-10 md:h-12 transition-all duration-300 filter ${isHomePage ? 'brightness-0 invert ' : 'brightness-0 invert'}`}
+//                         />
+//                     </Link>
+
+//                     {/* Right: Mobile Menu Toggle (Mobile Only) */}
+//                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white absolute right-4">
+//                         {isMobileMenuOpen ? <X size={24} /> : <TextAlignEnd size={24} />}
+//                     </button>
+//                 </div>
+
+//                 {/* Navigation Bar (Desktop - Second row) (unchanged) */}
+//                 <div className={`border-y relative hidden lg:block ${isHomePage ? 'border-white/20' : 'border-white/20'}`}>
+//                     <div className="templateContainer px-4 md:px-8 h-16 flex items-center justify-between">
+
+//                         {/* LEFT: Phone Number */}
+//                         <div className="flex items-center text-white gap-2 text-sm">
+//                             <a href="tel:+97142255765">
+//                                 <span>+971 42255765</span>
+//                             </a>
+//                         </div>
+
+//                         {/* CENTER: Nav Links (with active state logic) */}
+//                         <nav className="flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+//                             {NAV_LINKS.map((link) => {
+//                                 const active = isLinkActive(link.href);
+
+//                                 return (
+//                                     <div
+//                                         key={link.id}
+//                                         className="relative group"
+//                                         onMouseLeave={() => link.hasDropdown && setActiveDropdown(null)}
+//                                     >
+//                                         <Link
+//                                             href={getLinkHref(link.href)}
+//                                             className={`nav-trigger text-xs tracking-widest transition-colors flex items-center gap-1 py-6 uppercase ${link.hasDropdown ? 'cursor-pointer' : ''}
+//                                                 ${isHomePage
+//                                                     ? active
+//                                                         ? 'text-white font-normal' // Active on Home
+//                                                         : 'text-white hover:text-white/70'
+//                                                     : active
+//                                                         ? 'text-[#D4AF37] font-normal' // Active elsewhere
+//                                                         : 'text-white hover:text-white/70'
+//                                                 }`}
+//                                             onMouseEnter={() => link.hasDropdown && setActiveDropdown(link.id)}
+//                                             // FIX: Close dropdown when any main nav link is clicked
+//                                             onClick={() => setActiveDropdown(null)}
+//                                         >
+//                                             {link.label}
+//                                             {link.hasDropdown && (
+//                                                 <ChevronDown
+//                                                     size={14}
+//                                                     className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                                 />
+//                                             )}
+//                                         </Link>
+//                                     </div>
+//                                 );
+//                             })}
+//                         </nav>
+
+
+//                         <div className={`flex items-center text-sm cursor-pointer ${isHomePage ? ' text-white hover:text-[#D4AF37]' : 'text-white hover:text-[#D4AF37]'}`}>
+//                             <a href="/contact">
+//                                 Contact
+//                             </a>
+//                         </div>
+//                     </div>
+
+//                     {/* --- Mega Menu Dropdown (Desktop) (unchanged) --- */}
+//                     <div
+//                         className={`dropdown-container absolute top-full left-0 w-full bg-white shadow-xl
+//                         grid overflow-hidden transition-all duration-500 ease-out z-40
+//                         ${activeDropdown
+//                                 ? 'grid-rows-[1fr] opacity-100 border-t border-gray-100'
+//                                 : 'grid-rows-[0fr] opacity-0 border-t-0'
+//                             }`}
+//                         onMouseEnter={() => activeDropdown && setActiveDropdown(activeDropdown)}
+//                         onMouseLeave={() => setActiveDropdown(null)}
+//                     >
+//                         <div className="overflow-hidden min-h-0">
+//                             <div className="max-w-[1400px] mx-auto px-8 py-5">
+//                                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+//                                     {/* Map over dynamically fetched categories */}
+//                                     {activeDropdownContent.map((category, index) => (
+//                                         <a
+//                                             href={category.href}
+//                                             key={category.id}
+//                                             className="group block text-center"
+//                                             onClick={() => setActiveDropdown(null)} // Close dropdown on category link click
+//                                             style={{
+//                                                 opacity: 0,
+//                                                 // Using index for staggered animation effect
+//                                                 animation: `slideUpFade 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards`,
+//                                                 animationDelay: `${index * 120}ms`
+//                                             }}
+//                                         >
+//                                             <div className="relative overflow-hidden mb-6 aspect-[2/2] bg-gray-50">
+//                                                 <Image
+//                                                     src={category.image}
+//                                                     alt={category.label}
+//                                                     fill
+//                                                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                 />
+//                                                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                             </div>
+//                                             <h3 className="text-lg text-gray-900 group-hover:text-gray-600 transition-colors">
+//                                                 {category.label}
+//                                             </h3>
+//                                         </a>
+//                                     ))}
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+
+//                 {/* --- Mobile Menu (MODIFIED FOR SLIDE-IN FROM LEFT AND ADDED LOGO) --- */}
+//                 <div
+//                     className={`lg:hidden fixed top-0 left-0 h-full w-full max-w-xs bg-white shadow-lg py-3 px-6 flex flex-col gap-4
+//                         transition-transform duration-300 ease-in-out z-40 overflow-y-auto
+//                         ${isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'}`}
+//                 >
+//                     {/* MODIFIED: Header for Mobile Menu with Logo and Close Button */}
+//                     <div className="flex justify-between items-center mb-4">
+//                         {/* Logo on the left */}
+//                         <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+//                             <Image
+//                                 src="/image/mktlogo.png"
+//                                 alt="AXELS Logo"
+//                                 width={60}
+//                                 height={38}
+//                                 // The logo should not be inverted inside the white mobile menu panel
+//                                 className={`h-10 md:h-12 transition-all duration-300`}
+//                             />
+//                         </Link>
+//                         {/* Close button on the right */}
+//                         <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-900">
+//                             <X size={24} />
+//                         </button>
+//                     </div>
+
+//                     {/* Phone Number at the top of the mobile menu (unchanged) */}
+//                     <a href="tel:+971 42255765" className="text-sm font-normal tracking-widest py-2 text-gray-900 flex items-center gap-2 border-b pb-3 mb-2">
+//                         <Phone size={16} />
+//                         <span>+971 42255765</span>
+//                     </a>
+
+
+//                     {NAV_LINKS.map((link) => (
+//                         <div key={link.id} className="border-b border-gray-100 last:border-b-0">
+//                             {/* Main Mobile Link - MODIFIED for dropdowns to be a button or link */}
+//                             {link.hasDropdown ? (
+//                                 // *** FIX 1: Use a button to handle dropdown toggle/display ***
+//                                 <div
+//                                     className="flex items-center justify-between text-sm font-normal tracking-widest py-3 text-gray-900 uppercase cursor-pointer"
+//                                     onClick={() => toggleMobileDropdown(link.id)}
+//                                 >
+//                                     {link.label}
+//                                     <ChevronDown
+//                                         size={18}
+//                                         className={`transition-transform duration-300 ${activeDropdown === link.id ? 'rotate-180' : ''}`}
+//                                     />
+//                                 </div>
+//                             ) : (
+//                                 // Regular Link
+//                                 <Link
+//                                     href={getLinkHref(link.href)}
+//                                     className="block text-sm font-normal tracking-widest py-3 text-gray-900 uppercase"
+//                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                 >
+//                                     {link.label}
+//                                 </Link>
+//                             )}
+
+
+//                             {/** MODIFIED: Categories dropdown max-height adjusted to ensure all content is visible */}
+//                             {link.hasDropdown && (
+//                                 <div className={`overflow-hidden transition-all duration-300 ${activeDropdown === link.id ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+//                                     <div className="mt-2 pl-4 border-l-2 border-gray-100">
+//                                         <div className="grid grid-cols-2 gap-3 py-2">
+//                                             {link.categories?.map(cat => (
+//                                                 <Link
+//                                                     key={cat.id}
+//                                                     href={cat.href}
+//                                                     className="group block text-center"
+//                                                     onClick={() => setIsMobileMenuOpen(false)}
+//                                                 >
+//                                                     {/* Category Image container - responsive square aspect ratio */}
+//                                                     <div className="relative overflow-hidden mb-2 aspect-[2/2] rounded-lg bg-gray-50">
+//                                                         <Image
+//                                                             src={cat.image}
+//                                                             alt={cat.label}
+//                                                             fill
+//                                                             sizes="(max-width: 600px) 50vw, 100px"
+//                                                             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+//                                                         />
+//                                                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300" />
+//                                                     </div>
+//                                                     {/* Category Label */}
+//                                                     <h3 className="text-xs text-gray-900 font-medium group-hover:text-gray-600 transition-colors">
+//                                                         {cat.label}
+//                                                     </h3>
+//                                                 </Link>
+//                                             ))}
+//                                         </div>
+//                                         {/* *** NEW ADDITION: View all category link (Now visible due to max-height increase) *** */}
+//                                         <Link
+//                                             href={link.href}
+//                                             className="block text-center text-sm font-bold tracking-widest py-3 text-gray-900 uppercase hover:text-[#D4AF37] transition-colors"
+//                                             onClick={() => setIsMobileMenuOpen(false)}
+//                                         >
+//                                             View all categories
+//                                         </Link>
+//                                         {/* *** END NEW ADDITION *** */}
+//                                     </div>
+//                                 </div>
+//                             )}
+//                         </div>
+//                     ))}
+//                     <div className="border-b border-gray-100">
+//                         <a
+//                             href="/contact"
+//                             className="block text-sm font-bold tracking-widest py-3 text-gray-900 uppercase"
+//                             onClick={() => setIsMobileMenuOpen(false)}
+//                         >
+//                             Contact
+//                         </a>
+//                     </div>
+
+//                 </div>
+//                 {/* MODIFIED: Overlay to darken content when menu is open (unchanged) */}
+//                 {isMobileMenuOpen && (
+//                     <div
+//                         className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+//                         onClick={() => setIsMobileMenuOpen(false)}
+//                     />
+//                 )}
+//             </header>
+//         </div>
+//     );
+// }

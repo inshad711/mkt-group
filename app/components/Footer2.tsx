@@ -1,3 +1,5 @@
+// D:\mktgroup\app\components\Footer2.tsx
+
 import React from 'react';
 import Link from 'next/link';
 import { Facebook, Twitter, Linkedin, Phone, MapPin, Mail, Clock, Instagram } from 'lucide-react';
@@ -35,16 +37,16 @@ const Footer2 = () => {
                         <ul className="flex flex-wrap justify-center gap-6 md:gap-8 font-medium uppercase tracking-wide text-xs text-gray-800">
                             {[
                                 { label: 'Home', href: '/' },
-                                { label: 'About', href: '#about' },
-                                { label: 'Categories', href: '/categories' },
-                                { label: 'Products', href: '/products' },
-                                { label: 'Brands', href: '#brands' },
-                                { label: 'Retail', href: '#retail' },
+                                { label: 'About', href: '/about' },
+                                { label: 'Categories', href: '/category' },
+
+
+                                { label: 'Retail', href: '/about/#retail' },
                                 { label: 'Contact', href: '/contact' },
                             ].map((item) => (
                                 <li key={item.label}>
                                     {/* Use item.href directly */}
-                                    <Link href={item.href} className="hover:text-orange-500 transition-colors duration-200">
+                                    <Link href={item.href} className="hover:text-[#D4AF37]/80 transition-colors duration-200">
                                         {item.label}
                                     </Link>
                                 </li>
@@ -57,19 +59,20 @@ const Footer2 = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
 
                     {/* Column 1: Contact Info */}
-                    <div className="space-y-4">
+                    <div className="md:block hidden space-y-4">
 
                         <div className="flex items-center gap-3">
                             <Phone className="w-4 h-4 text-[#D4AF37]" />
-                            <a href="tel:+97142255765" className="hover:text-orange-500 transition-colors">+971 4 2255765</a>
+                            <a href="tel:+97142255765" className="hover:text-[#D4AF37]/80 transition-colors">+971 4 2255765</a>
                         </div>
                         <div className="flex items-start gap-3">
                             <MapPin className="w-4 h-4 text-[#D4AF37] mt-1" />
-                            <span>25 West 21th Street, Miami FL, USA</span>
+                            <span>Deira, Dubai,
+                                United Arab Emirates</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <Mail className="w-4 h-4 text-[#D4AF37]" />
-                            <a href="mailto:sam@mktgroup.ae" className="hover:text-orange-500 transition-colors">sam@mktgroup.ae</a>
+                            <a href="mailto:sam@mktgroup.ae" className="hover:text-[#D4AF37]/80 transition-colors">sam@mktgroup.ae</a>
                         </div>
 
 
@@ -106,18 +109,31 @@ const Footer2 = () => {
                                 <Linkedin size={18} />
                             </a>
                         </div>
-                        <div className="flex gap-4 mt-2">
-                            <a
-                                href="/path/to/your/voucher.pdf"  // **Replace with the actual URL of the voucher file**
-                                download="My-Voucher-Code-123.pdf" // **Optional: suggests a file name for the download**
-                                className="inline-flex items-center justify-center bg-black hover:bg-black/80 text-white font-light  py-2 px-4 rounded-[8px]"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L10 11.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414z" clipRule="evenodd" />
-                                    <path d="M10 2a1 1 0 011 1v7a1 1 0 11-2 0V3a1 1 0 011-1z" />
-                                </svg>
-                                Download Voucher
-                            </a>
+
+                    </div>
+
+
+                    {/* Column 1: Contact Info */}
+                    <div className="md:hidden  block space-y-4">
+
+                        <div className="flex items-center gap-3">
+                            <Phone className="w-4 h-4 text-[#D4AF37]" />
+                            <a href="tel:+97142255765" className="hover:text-[#D4AF37]/80 transition-colors">+971 4 2255765</a>
+                        </div>
+                        <div className="flex items-start gap-3">
+                            <MapPin className="w-4 h-4 text-[#D4AF37] mt-1" />
+                            <span>Deira, Dubai,
+                                United Arab Emirates</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                            <Mail className="w-4 h-4 text-[#D4AF37]" />
+                            <a href="mailto:sam@mktgroup.ae" className="hover:text-[#D4AF37]/80 transition-colors">sam@mktgroup.ae</a>
+                        </div>
+
+
+                        <div className="flex items-center gap-3">
+                            <Clock className="w-4 h-4 text-[#D4AF37]" />
+                            <span>Mon-Fri: 10:00 - 18:00</span>
                         </div>
                     </div>
 
@@ -130,19 +146,20 @@ const Footer2 = () => {
                             Receive updates on our latest products, market trends, and commodities list from MKT General Trading LLC.
                         </p>
 
-                        <form className="flex w-full md:max-w-xs border-b border-gray-300 pb-1">
+                        {/* <form className="flex w-full md:max-w-xs border-b border-gray-300 pb-1">
                             <input
                                 type="email"
                                 placeholder="Enter your business email..."
                                 className="bg-transparent w-full outline-none text-gray-700 placeholder-gray-400 py-2"
                             />
                             <button
+
                                 type="button"
-                                className="text-gray-900 font-bold uppercase text-xs tracking-wider whitespace-nowrap hover:text-orange-500 transition-colors"
+                                className="text-gray-900 font-bold uppercase text-xs tracking-wider whitespace-nowrap hover:text-[#D4AF37] cursor-pointer transition-colors"
                             >
-                                Sign Up
+                                Subscribe
                             </button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
 

@@ -18,3 +18,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  /* Forces the vertical scrollbar to always be present, reserving its space */
+  overflow-y: scroll;
+}

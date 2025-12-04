@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Overlapping = () => {
     return (
-        <section className="w-full py-24 bg-[#FFFFFF] overflow-hidden">
+        <section className="w-full pb-24 pt-10 bg-[#FFFFFF] overflow-hidden">
             <div className="templateContainer px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 
@@ -27,7 +27,7 @@ const Overlapping = () => {
                             <div className="relative h-full w-full bg-[#f4f4f4]">
                                 {/* Replace src with your actual shoe image path */}
                                 <Image
-                                    src="/dummy-image/Gemini_Generated_Image_fue0umfue0umfue0.png"
+                                    src="/dummy-image/715b3308-f657-4faa-8294-a366e46e6f39.png"
                                     alt="Made to order shoe"
                                     fill
                                     className="object-cover object-center"
@@ -107,14 +107,14 @@ const Overlapping = () => {
                             <ul className="list-none space-y-2  text-base font-light text-zinc-600 leading-relaxed">
                                 {/* First point */}
                                 <li className="flex items-start">
-                                    <span className="mr-2 mt-1 text-base font-light text-zinc-600 leading-relaxed">&#x21e8;</span>
+                                    <span className="mr-2 mt-1 text-zinc-600 text-base md:text-md font-light">&#x21e8;</span>
                                     <span>
                                         MKT GENERALTRADING LLC has been able to maintain high proficiency and was also able to render professional services with the help of its highly trained and professional group of employees. We believe in Teamwork.
                                     </span>
                                 </li>
                                 {/* Second point, note the missing subject in the original text */}
                                 <li className="flex items-start">
-                                    <span className="mr-2 mt-1 ttext-base font-light text-zinc-600 leading-relaxed">&#x21e8;</span>
+                                    <span className="mr-2 mt-1 text-zinc-600 text-base md:text-md font-light">&#x21e8;</span>
                                     <span>
                                         MKT General Trading LLC  has been successful as a one stop shop to serve the FMCG business to business market, Ship chandlers, Hotels, Supermarkets, Catering companies in the U.A.E as well as Export Market and also have high level of specializing in its areas of business.
                                     </span>

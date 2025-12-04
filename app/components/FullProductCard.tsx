@@ -105,7 +105,7 @@
 
 
 
-// D:\mktgroup\app\components\CardSection.tsx
+// D:\mktgroup\app\components\FullProductCard.tsx
 'use client';
 
 import React from 'react';
@@ -172,7 +172,7 @@ const solutions: Solution[] = [
 
 const FullProductCard = () => {
     return (
-        <section className="w-full py-10  pt-48 bg-white">
+        <section className="w-full py-10 bg-white">
             <div className="templateContainer space-y-8">
 
                 {/* Header Section */}

@@ -3,66 +3,72 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Minus } from "lucide-react"; // Or use simple SVGs if you don't have lucide-react
+import Link from "next/link";
 
 // --- 1. The Data (Extracted from your HTML) ---
 const faqCategories = [
     {
-        title: "Shopping Information",
+        title: "Authentic product",
         items: [
             {
-                question: "Pellentesque habitant morbi tristique senectus et netus?",
+                question: "What is your Minimum Order Quantity (MOQ)?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "Our standard MOQ is typically a **mixed-container** (20ft or 40ft), as we specialize in providing flexible consolidation solutions. Smaller orders, such as single pallets, may be considered depending on the product category and destination.",
             },
             {
-                question: "How much is shipping and how long will it take?",
+                question: "Do you offer mixed-container loading?",
                 answer:
-                    "The perfect way to enjoy brewing tea on low hanging fruit to identify. Duis autem vel eum iriure dolor in hendrerit vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. For me, the most important part of improving at photography has been sharing it.",
+                    "**Yes, this is one of our key strengths.** We specialize in mixed-container loading, allowing importers to combine multiple FMCG categories (food, cleaning, household) and brands in a single shipment from our Dubai hub. This provides flexibility and cost savings.",
             },
             {
-                question: "How long will it take to get my package?",
+                question: "What is the typical shipping process and delivery time?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "Once an order is confirmed, our team handles product sourcing, quality check, consolidation, and container loading from our warehouse in Dubai. Shipping time varies greatly based on the destination (e.g., GCC or African markets). We coordinate closely with shipping lines and forwarders and will provide an estimated delivery schedule with your quote.",
             },
             {
-                question: "Branding is simply a more efficient way to sell things?",
+                question: "What documentation do you provide for customs clearance?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "We provide comprehensive documentation support, including the **Commercial Invoice, Packing List, Certificate of Origin, and any other specific certifications or documents** required for smooth customs clearance in your target market.",
             },
         ],
     },
     {
-        title: "Payment Information",
+        title: "Product & Sourcing Information",
         items: [
             {
-                question: "Pellentesque habitant morbi tristique senectus et netus?",
+                question: "What product categories does MKT Trading specialize in?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "We primarily trade a wide range of Fast-Moving Consumer Goods (FMCG), including **Cleaning & Home Care** products, **Canned Foods, Breakfast & Pantry staples, Beverages, and Baby & Personal Care** items. We are a one-stop hub for diverse FMCG needs.",
             },
             {
-                question: "How much is shipping and how long will it take?",
+                question: "What makes MKT Trading’s sourcing competitive?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "Our competitive edge comes from being based in the Dubai trading hub and working **directly with manufacturers and major distributors**. This allows us to access multiple origins, focus on regular and promotional deals, and offer highly competitive pricing, especially for price-sensitive markets in the GCC and Africa.",
             },
             {
-                question: "How long will it take to get my package?",
+                question: "Where do you source your products from?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "We source primarily from global manufacturers and large distributors, with main origins including **UAE, India, Brazil, Thailand, Turkey, China, and the EU**. Our Dubai base allows us to consolidate products from these various origins efficiently.",
             },
         ],
     },
     {
-        title: "Order & Returns",
+        title: "Company & Payment",
         items: [
             {
-                question: "Pellentesque habitant morbi tristique senectus et netus?",
+                question: "What is MKT Trading’s primary target audience?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "Our primary audience includes **importers, distributors, wholesalers, and retail chains** in our target regions (GCC and Africa). We focus on B2B clients looking for reliable, consolidated FMCG supply.",
             },
             {
-                question: "How much is shipping and how long will it take?",
+                question: "What payment methods do you accept?",
                 answer:
-                    "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+                    "We accept standard B2B payment methods. Specific terms (such as T/T – Telegraphic Transfer, or L/C – Letter of Credit) are discussed and agreed upon during the quotation and order confirmation process.",
+            },
+            {
+                question: "How can I get a custom quote for my order?",
+                answer:
+                    "You can easily get a quote by using the **'Get a Quote' form** on our website or by clicking the **'WhatsApp Now'** button for immediate contact. Please include your company name, country, desired product categories, and approximate order quantity for the fastest response.",
             },
         ],
     },
@@ -116,9 +122,9 @@ const FaqItem = ({ question, answer }: { question: string; answer: string }) => 
 // --- 3. Main Page Component ---
 export default function HelpCenter() {
     return (
-        <div className="min-h-screen bg-white text-gray-900">
+        <div className=" bg-white text-gray-900">
             {/* Header Section */}
-            <header className="py-12 md:py-16 text-center px-4">
+            <header className="py-10 md:py-12 text-center px-4">
                 <nav className="flex justify-center items-center space-x-2 text-sm text-gray-500 mb-4">
                     <a href="#" className="hover:text-black transition">Home</a>
                     <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
@@ -131,7 +137,7 @@ export default function HelpCenter() {
             </header>
 
             {/* Main Content Area */}
-            <main className="templateContainer px-4 pb-12 md:pb-24">
+            <main className="templateContainer px-4 pb-7 md:pb-12">
                 <div className="flex flex-col lg:flex-row gap-12">
 
                     {/* Left Sidebar (Sticky) */}
@@ -151,12 +157,15 @@ export default function HelpCenter() {
                             </div>
 
                             <div className="flex flex-col gap-3">
-                                <button className="w-full cursor-pointer py-3 px-6 border border-black rounded text-black font-normal hover:bg-black hover:text-white transition duration-300">
-                                    Contact Us
-                                </button>
-                                <button className="w-full cursor-pointer py-3 px-6 bg-black text-white rounded font-normal border border-black hover:bg-transparent hover:text-black transition duration-300">
-                                    About us
-                                </button>
+                                <Link href="/contact">
+                                    <button className="w-full cursor-pointer py-3 px-6 border border-black rounded text-black font-normal hover:bg-black hover:text-white transition duration-300">
+                                        Contact Us
+                                    </button></Link>
+                                <Link href="/about">
+                                    <button className="w-full cursor-pointer py-3 px-6 bg-black text-white rounded font-normal border border-black hover:bg-transparent hover:text-black transition duration-300">
+                                        About us
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </aside>
@@ -182,7 +191,7 @@ export default function HelpCenter() {
                     </section>
 
                 </div>
-            </main>
-        </div>
+            </main >
+        </div >
     );
 }
