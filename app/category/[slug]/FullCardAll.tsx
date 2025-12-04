@@ -56,6 +56,7 @@ const ProductCard = ({ product, categoryTitle }: ProductCardProps) => {
                 </div>
             </div>
 
+            {/* // */}
             <div className="flex justify-between items-end px-1">
                 <div className="flex flex-col py-2 gap-1">
                     <p className="text-[10px] md:text-[12px] font-normal text-gray-500 uppercase tracking-wide">
