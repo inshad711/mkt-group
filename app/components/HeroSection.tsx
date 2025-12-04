@@ -1962,7 +1962,7 @@ const SLIDES = [
         textColor: "text-white",
         eyebrow: "Established 2009 • Dubai, UAE",
         title: ["Dubai's One-Stop", "FMCG Hub"],
-        description: "MKT General Trading connects food, cleaning and household brands from Dubai to importers, distributors and wholesalers across the GCC, Africa and beyond with mixed-container solutions, competitive pricing and reliable export support.",
+        description: "MKT General Trading exports Dubai food, cleaning, & household brands to GCC, Africa, & global wholesalers/importers with mixed-container & competitive pricing.",
         buttons: [
             { text: "WhatsApp Now", href: "https://wa.me/97142255765", style: "primary" },
             { text: "Get a Quote", href: "/contact", style: "secondary" },
@@ -1977,7 +1977,7 @@ const SLIDES = [
 
         mediaSrcMobile: "/hero/mktbanner1d.png",
         textColor: "text-white",
-        eyebrow: "Established 2009 • Dubai, UAE",
+        eyebrow: "Dubai Global FMCG Hub",
         title: ["Your FMCG Trading ", "Partner in Dubai"],
         description: "We source, consolidate and ship quality food, cleaning and household products to importers and distributors across the GCC, Africa and beyond.",
         buttons: [
@@ -1994,9 +1994,9 @@ const SLIDES = [
 
         mediaSrcMobile: "/dummy-image/Gemini_Generated_Image_i1k2zbi1k2zbi1k2.png", // Use a different, smaller, or vertical image here
         textColor: "text-white",
-        eyebrow: "Established 2009 • Dubai, UAE",
+        eyebrow: "Connect Importers & Brands",
         title: ["Premium Produce", "Global Reach"],
-        description: "MKT General Trading offers a wide range of food, fresh produce, and household brands from Dubai. We connect importers, distributors, and wholesalers across the GCC, Africa, and beyond with mixed-container solutions, competitive pricing, and reliable export support.",
+        description: "MKT General Trading provides Dubai food, fresh produce, and household brands. We connect GCC/Africa importers with competitive mixed-container export solutions.",
         buttons: [
             { text: "View Products", href: "/category", style: "primary" },
         ],
