@@ -168,7 +168,7 @@ const Footer = () => {
                         <div className="mb-6">
                             <Link href="/">
                                 {/* Replace with your actual Logo */}
-                                <img src="/image/mktlogo.png" alt="Shofy Logo" className="h-8" />
+                                <img src="/image/mktlogo.webp" alt="mkt Logo" className="h-8" />
                             </Link>
                         </div>
                         <p className="mb-6 text-base leading-relaxed text-gray-500">

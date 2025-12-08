@@ -284,7 +284,7 @@ const NewBreadCrumb: React.FC<BreadCrumbProps> = ({
                 <div
                     className="relative bg-bottom h-[200px] md:h-[280px] lg:h-[330px] object-cover"
                     style={{
-                        backgroundImage: `url(${img ? img : "/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.png"})`,
+                        backgroundImage: `url(${img ? img : "/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.webp"})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         backgroundPosition: "center right",

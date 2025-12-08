@@ -26,7 +26,7 @@ const AboutPage = () => {
             <NewBreadCrumb
                 title={pageTitle}
                 page={pageTitle}
-                img="/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.png"
+                img="/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.webp"
                 version2={false}
             />
             <AboutSection />

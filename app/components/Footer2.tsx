@@ -87,8 +87,8 @@ const Footer2 = () => {
 
                         <Link href="/">
                             <img
-                                src="/image/mktlogo.png"
-                                alt="AXELS Logo"
+                                src="/image/mktlogo.webp"
+                                alt="mkt Logo"
 
                                 className="h-16 md:h-16 w-auto "
                             />

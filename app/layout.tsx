@@ -8,16 +8,9 @@ import Footer from "./components/Footer";
 import { Lexend } from "next/font/google";
 import Footer2 from "./components/Footer2";
 import FloatingIcon from "./components/FloatingIcon";
+import NextTopLoader from "nextjs-toploader";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 const MainFont = Lexend({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -42,7 +35,7 @@ export const metadata = {
     siteName: "MKT",
     images: [
       {
-        url: "/image/mktlogo.png", // Ensure this image exists in your public folder
+        url: "/image/mktlogo.webp", // Ensure this image exists in your public folder
         width: 1200,
         height: 630,
         alt: "MKT Group",
@@ -64,6 +57,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       > */}
       <body className={`${MainFont.className} antialiased`}>
+        <NextTopLoader
+          color="#D4AF37"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={3}
+          crawl={true}
+          showSpinner={false}
+          easing="ease"
+          speed={200}
+          shadow="0 0 10px #D4AF37,0 0 5px #D4AF37"
+        />
         <Header />
         {children}
 

@@ -2360,7 +2360,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                 <NewBreadCrumb
                     title={formattedSlug}
                     page={formattedSlug}
-                    img="/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.png"
+                    img="/dummy-image/9b1acb49-84be-42c1-a505-f05c0037e564.webp"
                     version2={false}
                 />
                 <section className="w-full templateContainer px-6 py-12 text-center pt-36 text-red-600">
