@@ -113,14 +113,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "https://mktgroupaebck.demo-web.live";
 
   // 2. Define the Backend API URL (for fetching data)
-  // This must match the variable defined in your .env.local file (BACKEND_URL)
-  const backendUrl = process.env.BACKEND_URL;
+  // This must match the variable defined in your .env.local file (NEXT_PUBLIC_WORDPRESS_API_URL)
+  const backendUrl = process.env.NEXT_PUBLIC_WORDPRESS_API_URL;
 
   if (!backendUrl) {
-    // Crucial error check: If the BACKEND_URL isn't set, the API fetch will fail.
+    // Crucial error check: If the NEXT_PUBLIC_WORDPRESS_API_URL isn't set, the API fetch will fail.
     // Throwing an error here ensures the build fails early with a clear message.
     console.error(
-      "CRITICAL ERROR: BACKEND_URL environment variable is missing for sitemap generation."
+      "CRITICAL ERROR: NEXT_PUBLIC_WORDPRESS_API_URL environment variable is missing for sitemap generation."
     );
     // Return static pages as a minimum if necessary, but failing the build is often safer.
     return [{ url: frontendUrl, lastModified: new Date(), priority: 1.0 }];
