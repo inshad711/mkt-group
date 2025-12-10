@@ -1,5 +1,7 @@
 // import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
+
+// D:\mktgroup\app\layout.tsx
 import "./globals.css";
 import Header from "./components/Header";
 import ScrollToTopButton from "./components/ScrollToTopButton";
@@ -19,23 +21,52 @@ const MainFont = Lexend({
 
 
 
+// export const metadata = {
+//   title: "MKT",
+//   description: "MKT description",
+//   alternates: {
+//     canonical: `${process.env.NEXT_PUBLIC_FRONTEND_API_BASE_URL}/`,
+//   },
+//   openGraph: {
+//     title: "MKT",
+//     description: "MKT description",
+//     alternates: {
+//       canonical: `${process.env.NEXT_PUBLIC_FRONTEND_API_BASE_URL}/`,
+//     },
+//     url: "https://mktgroupaebck.demo-web.live",
+//     siteName: "MKT",
+//     images: [
+//       {
+//         url: "/image/mktlogo.webp", // Ensure this image exists in your public folder
+//         width: 1200,
+//         height: 630,
+//         alt: "MKT Group",
+//       },
+//     ],
+//     type: "website",
+//   },
+// };
+
 export const metadata = {
+  // 1. ADD THIS LINE to fix the warning
+  metadataBase: new URL(process.env.NEXT_PUBLIC_FRONTEND_API_BASE_URL || "https://mktgroupaebck.demo-web.live"),
+
   title: "MKT",
   description: "MKT description",
+
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_FRONTEND_API_BASE_URL}/`,
+    canonical: `/`, // You can simplify this, or keep the full env variable
   },
+
   openGraph: {
     title: "MKT",
     description: "MKT description",
-    alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_FRONTEND_API_BASE_URL}/`,
-    },
+    // url: ... (You can actually remove 'url' here if metadataBase is set, but keeping it is fine)
     url: "https://mktgroupaebck.demo-web.live",
     siteName: "MKT",
     images: [
       {
-        url: "/image/mktlogo.webp", // Ensure this image exists in your public folder
+        url: "/image/mktlogo.webp",
         width: 1200,
         height: 630,
         alt: "MKT Group",
@@ -44,7 +75,6 @@ export const metadata = {
     type: "website",
   },
 };
-
 
 export default function RootLayout({
   children,
